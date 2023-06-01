@@ -2,35 +2,51 @@ ApiConfig.java    TK版505  俊版446
 
   //video parse rule for host  修改获取接口里的rules配置字段名，适配fongmi配置。20230523
 
-                JsonObject obj = (JsonObject) oneHostRule;    
-         //start
-         String host = "";
-                if (obj.has("hosts")) {
-                    JsonArray hostsArray = obj.getAsJsonArray("hosts");
-                    if (hostsArray.size() > 1) {
-                        host = hostsArray.get(0).getAsString().trim(); // use first value of hosts array
-                    }else{
-                        host = obj.get("hosts").getAsString();
-                       }                      
-                    }else{
-                        host = obj.get("host").getAsString();                    
-                  }
-
-                if (obj.has("regex")) {
-                    JsonArray ruleJsonArr = obj.getAsJsonArray("regex");
-                    ArrayList<String> regex = new ArrayList<>();
-                    for(JsonElement one : ruleJsonArr) {
-                        String oneRule = one.getAsString();
-                        regex.add(oneRule);
+        //video parse rule for host
+        if (infoJson.has("rules")) {
+            VideoParseRuler.clearRule();
+            for(JsonElement oneHostRule : infoJson.getAsJsonArray("rules")) {
+                JsonObject obj = (JsonObject) oneHostRule;
+                if (obj.has("host")) {
+                    String host = obj.get("host").getAsString();
+                    if (obj.has("rule")) {
+                        JsonArray ruleJsonArr = obj.getAsJsonArray("rule");
+                        ArrayList<String> rule = new ArrayList<>();
+                        for (JsonElement one : ruleJsonArr) {
+                            String oneRule = one.getAsString();
+                            rule.add(oneRule);
+                        }
+                        if (rule.size() > 0) {
+                            VideoParseRuler.addHostRule(host, rule);
+                        }
                     }
-                    if (regex.size() > 0) {
-                        VideoParseRuler.addHostRule(host, regex);
+                    if (obj.has("filter")) {
+                        JsonArray filterJsonArr = obj.getAsJsonArray("filter");
+                        ArrayList<String> filter = new ArrayList<>();
+                        for (JsonElement one : filterJsonArr) {
+                            String oneFilter = one.getAsString();
+                            filter.add(oneFilter);
+                        }
+                        if (filter.size() > 0) {
+                            VideoParseRuler.addHostFilter(host, filter);
+                        }
                     }
                 }
-            //end
+                if (obj.has("hosts") && obj.has("regex")) {
+                    ArrayList<String> rule = new ArrayList<>();
+                    JsonArray regexArray = obj.getAsJsonArray("regex");
+                    for (JsonElement one : regexArray) {
+                        rule.add(one.getAsString());
+                    }
 
-
-    if (obj.has("rule")) {
-                    JsonArray ruleJsonArr = obj.getAsJsonArray("rule");
+                    JsonArray array = obj.getAsJsonArray("hosts");
+                    for (JsonElement one : array) {
+                        String host = one.getAsString();
+                        VideoParseRuler.addHostRule(host, rule);
+                    }
+                }
+            }
+        }
+        String defaultIJKADS="{\"ijk\":[{\"options\":
 
 
