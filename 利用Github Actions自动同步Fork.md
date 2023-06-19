@@ -10,7 +10,10 @@ fork别人的github项目，然后更改默认branch为主要活动branch
 
 添加如下代码[1]
 
-# .github/workflows/sync.yml
+![微信图片_20230620055616](https://github.com/dlgt7/TVbox-interface/assets/102397160/cb514d9b-2cf1-427b-b7e1-46d5eb27faa3)
+
+
+# #.github/workflows/sync.yml
 name: Sync Fork
 
 on:
