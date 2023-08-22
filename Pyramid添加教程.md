@@ -65,7 +65,7 @@ private void parseJson(String apiUrl, String jsonStr) {
 
 ```java
 public Spider getCSP(SourceBean sourceBean) {
-    //pyramid-add-start   俊版576行   TK668行
+    //pyramid-add-start   俊版589行   TK668行
     if (sourceBean.getApi().startsWith("py_")) {
         try {
             return PythonLoader.getInstance().getSpider(sourceBean.getKey(), sourceBean.getExt());
@@ -81,7 +81,7 @@ public Spider getCSP(SourceBean sourceBean) {
 
 ```java
 public Object[] proxyLocal(Map param) {
-    //pyramid-add-start  俊版592行  TK687行
+    //pyramid-add-start  俊版605行  TK687行
     try {
         if(param.containsKey("api")){
             String doStr = param.get("do").toString();
