@@ -1,4 +1,4 @@
-## 官仓0718封仓:https://github.com/CatVodTVOfficial/TVBoxOSC.git  独孤九剑，问鼎天下
+## 官仓0718封仓:https://github.com/CatVodTVOfficial/TVBoxOSC  独孤九剑，问鼎天下
 
 ## FongMi-TV:https://github.com/FongMi/TV  自成一派，功力深厚。
 
