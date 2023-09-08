@@ -1,18 +1,18 @@
 ## 官仓0718封仓:https://github.com/CatVodTVOfficial/TVBoxOSC.git
 
-## 于俊大佬：https://github.com/q215613905/TVBoxOS
+## FongMi-TV:https://github.com/FongMi/TV  自成一派，功力深厚。
 
-## takagen99：https://github.com/takagen99/TVBoxOSC
+## 于俊大佬：https://github.com/q215613905/TVBoxOS  延续正统，简单易用。
 
-## TK弹幕版本：https://github.com/lppsuixn/Box
+## takagen99：https://github.com/takagen99/TVBoxOSC  审美在线，继续保持
 
-## 俊版手机版：https://github.com/XiaoRanLiu3119/TVBoxOS
+## TK弹幕版本：https://github.com/lppsuixn/Box  没有代沟，享受糊屏
 
-## 竹子哥：https://github.com/zhuziwuming/TVBoxOSq 
+## 俊版手机版：https://github.com/XiaoRanLiu3119/TVBoxOS  开源共享，精神可佳
+
+## 竹子哥：https://github.com/zhuziwuming/TVBoxOSq  
 
 ## 派大星版本：https://github.com/nbwzlyd/TVBoxOS
-
-## FongMi-TV:https://github.com/FongMi/TV
 
 ## TV猫盒：https://github.com/kensonmiao/CatVodTVOSC  弃坑了，包括布鲁托版本。
 
