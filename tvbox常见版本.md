@@ -10,7 +10,7 @@
 
 ## 俊版手机版：https://github.com/XiaoRanLiu3119/TVBoxOS  开源共享，精神可佳
 
-## 多仓版本:https://github.com/mlabalabala/box
+## 多仓版本:https://github.com/mlabalabala/box 多仓版本，拒绝焦虑
 
 ## 竹子哥：https://github.com/zhuziwuming/TVBoxOSq  
 
