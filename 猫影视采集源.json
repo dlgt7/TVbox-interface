@@ -1,0 +1,1174 @@
+{
+    "video": {
+        "sites": [
+
+
+   {
+        "key": "kkys",
+        "name": "📺快看",
+        "type": 1,
+        "api": "./kkys_open.js"
+   },
+ {
+                "key": "apilj",
+                "name": "🪜辣椒",
+                "type": 3,
+                "api": "./caiji.js",
+                "ext": "https://apilj.com/api.php/provide/vod/at/json/"
+            },      
+      {
+        "key": "mtsp",
+        "name": "🪜蜜桃",
+        "type": 3,
+        "api": "assets://js/mtsp_open.js"
+      },
+            {
+                "key": "laoyac",
+                "name": "🪜老鸭",
+                "type": 3,
+                "api": "./caiji.js",
+                "ext": "https://api.apilyzy.com/api.php/provide/vod/"
+            },            
+            {
+                "key": "jikun",
+                "name": "🪜鸡坤",
+                "type": 3,
+                "api": "./caiji.js",
+                "ext": "https://sewozyapi.com/api.php/provide/vod/"
+            },      
+            {
+                "key": "yutuu",
+                "name": "🪜玉兔",
+                "type": 3,
+                "api": "./caiji.js",
+                "ext": "https://api.sexnguon.com/api.php/provide/vod/"
+            },  
+              {
+                "key": "xiezhen",
+                "name": "🪜写真",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://kkzy.me/api.php/provide/vod/"
+            },                
+            {
+                "key": "shayuu",
+                "name": "🪜鲨鱼",
+                "type": 3,
+                "api": "./caiji.js",
+                "ext": "https://shayuapi.com/api.php/provide/vod/"
+            },            
+            {
+                "key": "tianmei",
+                "name": "🪜天美",
+                "type": 3,
+                "api": "./caiji.js",
+                "ext": "https://api.yikanapi.com/api.php/provide/vod/"
+            },            
+            {
+                "key": "chunmei",
+                "name": "🪜传媒",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.maozyapi.com/inc/apijson_vod.php"},
+            {
+                "key": "mangguo",
+                "name": "🪜忙果",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://madoucun.cn/api.php/provide/vod/?ac=xml"
+            },                       
+                      
+      {
+        "key": "18av",
+        "name": "🪜大人",
+        "type": 3,
+        "api": "assets://js/18av_open.js"
+      },   
+            {
+                "key": "mifeng",
+                "name": "🪜蜜蜂",
+                "api": "./caiji.js",
+                "type": 1,
+                "ext": "https://www.beeyao.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "nivod",
+                "name": "🪜泥巴",
+                "type": 1,
+                "api": "nivod_op.js",
+                "ext": "888解忧愁"
+            },
+            {
+                "key": "madouse",
+                "name": "🪜果冻",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://madouse.cc/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "xiaocao",
+                "name": "🪜小草",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.caoliuzyw.com/api.php/provide/vod/at/json/"
+            },
+            {
+                "key": "chujia",
+                "name": "🪜精东",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://chujia.cc/api.php/provide/vod/from/m3u8/"
+            },
+            {
+                "key": "lajiao",
+                "name": "🪜辣椒",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://apilj.com/api.php/provide/vod/at/json/"
+            },
+            {
+                "key": "apiyikanapi",
+                "name": "️🪜易看",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.yikanapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "liuyou",
+                "name": "🪜[六优]",
+                "api": "./caiji.js",
+                "type": 1,
+                "ext": "http://www.6uzy.cc/inc/apijson_vod.php"
+            },
+            {
+                "key": "vipmv",
+                "name": "🪜[天堂]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://vipmv.cc/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "sanjiu",
+                "name": "🪜[三九]",
+                "api": "./caiji.js",
+                "type": 1,
+                "ext": "https://www.39kan.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "piaohua",
+                "name": "🪜[飘花]",
+                "api": "./caiji.js",
+                "type": 1,
+                "ext": "http://www.zzrhgg.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "49zyw",
+                "name": "🪜[四九]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://49zyw.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "68zy88",
+                "name": "🪜[六八]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://68zy88.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "subo",
+                "name": "🪜[速博]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://subocaiji.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "huyaapi",
+                "name": "🪜[虎牙]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.huyaapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "kuakezy1",
+                "name": "🪜[夸克]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://kuakezy1.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "qhzyapi",
+                "name": "🪜[奇虎]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://caiji.qhzyapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "kswandouzy",
+                "name": "🪜[豌豆]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://ks.wandouzy.cc/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "jiguang",
+                "name": "🪜[极光]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://jiguang.la/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "hw8",
+                "name": "🪜[华为]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://hw8.live/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "xzcjz",
+                "name": "🪜[熊掌]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://xzcjz.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "kekezyapi",
+                "name": "🪜[可可]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://caiji.kekezyapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "xkanzy10",
+                "name": "🪜[享看]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://xkanzy10.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "damozy",
+                "name": "🪜[大漠]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://damozy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "kuaikan-api",
+                "name": "🪜[快看]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://kuaikan-api.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "kuaiyunzy",
+                "name": "🪜[快云]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.kuaiyunzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "jszyapi",
+                "name": "🪜[极速]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://jszyapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "hhzyapi",
+                "name": "🪜[火狐]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://hhzyapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "ikunzyapi",
+                "name": "🪜[爱坤]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://ikunzyapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "42",
+                "name": "🪜[四二]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.42.la/api.php/provide/vod/from/42m3u8/at/json"
+            },
+            {
+                "key": "kczyapi",
+                "name": "🪜[快车]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://caiji.kczyapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "collectwolongzyw",
+                "name": "🪜[卧龙]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://collect.wolongzyw.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "m3u8apiyhzy",
+                "name": "🪜[樱花]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://m3u8.apiyhzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "sdzyapi",
+                "name": "🪜[闪电]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://sdzyapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "hanjuzy",
+                "name": "🪜[韩剧]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://www.hanjuzy.com/inc/apijson_vod.php"
+            },
+            {
+                "key": "cjbajiecaiji",
+                "name": "🪜[八戒]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://cj.bajiecaiji.com/inc/apijson_vod.php"
+            },
+            {
+                "key": "apiapibdzy",
+                "name": "🪜[百度]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.apibdzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "apiwujinapi",
+                "name": "🪜[无尽]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.wujinapi.net/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "apitiankongapi",
+                "name": "🪜[天空]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.tiankongapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "pgfenwe078",
+                "name": "🪜[四圈]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://pg.fenwe078.cf/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "rrvipw",
+                "name": "🪜[人人]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.rrvipw.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "haowywz",
+                "name": "🪜[小小]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://haowywz.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "cjvodimg",
+                "name": "🪜[影图]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://cj.vodimg.top/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "p2100",
+                "name": "🪜[飘零]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://p2100.net/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "moviegsl99",
+                "name": "🪜[新马]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://movie.gsl99.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "feifei67",
+                "name": "🪜[飞飞]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://www.feifei67.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "zy018",
+                "name": "🪜[十八]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.zy018.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "9szy",
+                "name": "🪜[九色]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://9szy.net/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "apibukazyw",
+                "name": "🪜[不卡]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.bukazyw.fun/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "kuaiavzy",
+                "name": "🪜[快爱]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://kuaiavzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "apivodkok2",
+                "name": "🪜[KOK]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.vodkok2.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "api.maozyapi.com",
+                "name": "🪜[猫咪]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.maozyapi.com/inc/apijson_vod.php"
+            },
+            {
+                "key": "siwazywtw",
+                "name": "🪜[袜丝]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.siwazyw.tv/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "siwa",
+                "name": "🪜[丝袜]",
+                "api": "./caiji.js",
+                "type": 1,
+                "ext": "https://haiwai.siwazyw.org/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "shayuapi",
+                "name": "🪜[鲨鱼]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://shayuapi.com/api.php/provide/vod/"
+            },
+            {
+                "key": "apilyzy",
+                "name": "🪜[老鸭]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.apilyzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "sewozy",
+                "name": "🪜[涩窝]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://sewozyapi.com/api.php/provide/vod"
+            },
+            {
+                "key": "semao",
+                "name": "🪜[色猫]",
+                "api": "./caiji.js",
+                "type": 1,
+                "ext": "https://caiji.semaozy.net/inc/apijson_vod.php"
+            },
+            {
+                "key": "198211",
+                "name": "🪜[花色]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://198.211.49.156/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "putaozyw",
+                "name": "🪜[葡萄]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://caiji.putaozyw.net/inc/apijson_vod.php"
+            },
+            {
+                "key": "apiddapi",
+                "name": "🪜[滴滴]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.ddapi.cc/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "apixbapi",
+                "name": "🪜[️雪豹]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.xbapi.cc/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "apiyirenziyuan",
+                "name": "🪜[伊人]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.yirenziyuan.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "kaiyunzy4",
+                "name": "🪜[开云]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://kaiyunzy5.com/inc/apijson_vod.php"
+            },
+            {
+                "key": "seyavod",
+                "name": "🪜[色鸭]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.seyavod.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "jizhiapi",
+                "name": "🪜[极致]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://jizhiapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "timizy10",
+                "name": "🪜[甜蜜]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://timizy10.cc/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "naixxzy",
+                "name": "🪜[奶香]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://naixxzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "aosikazy",
+                "name": "🪜[奥斯]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://aosikazy.com/api.php/provide/vod/?ac=list"
+            },
+            {
+                "key": "sexnguon",
+                "name": "🪜[色南]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.sexnguon.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "156249",
+                "name": "🪜[蛋蛋]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://156.249.29.8/inc/apijson_vod.php"
+            },
+            {
+                "key": "kkzy",
+                "name": "🪜[写真]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://kkzy.me/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "madou",
+                "name": "🪜麻豆",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://wuxu.cc/api.php/provide/vod/from/mdm3u8/"
+            },
+            {
+                "key": "tianmei",
+                "name": "🪜美天",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://www.tianmei.pw/api.php/provide/vod/from/m3u8/"
+            },
+            {
+                "key": "tmyy",
+                "name": "🪜天美",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://tmyy.cc/api.php/provide/vod/from/m3u8/"
+            },
+            {
+                "key": "apig14o",
+                "name": "🪜萝莉",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.g14o.cc/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "bominzy",
+                "name": "🪜博民",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.bominzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "155api",
+                "name": "🪜十五",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://155api.com/api.php/provide/vod/?ac=list"
+            },
+            {
+                "key": "avre00",
+                "name": "🪜黄瓜",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.avre00.com/api.php/provide/vod/?ac=list"
+            },
+            {
+                "key": "dadou",
+                "name": "🪜[大豆]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.dadou.cm/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "ysmd214",
+                "name": "🪜[明帝]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://ys.md214.cn/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "seacmshuaqi",
+                "name": "🪜[花旗]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://seacms.huaqi.live/zyapi.php"
+            },
+            {
+                "key": "82156",
+                "name": "🪜[至圣]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://82.156.40.118:1234/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "moduzy",
+                "name": "🪜[魔都]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.moduzy.com/api.php/provide/vod/?ac=list"
+            },
+            {
+                "key": "taopianapi",
+                "name": "🪜[淘片]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://taopianapi.com/cjapi/mc10/vod/json.html"
+            },
+            {
+                "key": "apizuidapi",
+                "name": "🪜[最大]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://api.zuidapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "inmi",
+                "name": "🪜[映迷]",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.inmi.app/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "mgzyz1.com",
+                "name": "🪜芒果",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://mgzyz1.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "mtav",
+                "name": "🪜桃桃",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://mtav.art/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "888dav.com",
+                "name": "🪜八八",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.888dav.com/api.php/provide/vod/"
+            },
+            {
+                "key": "apittzy.com",
+                "name": "🪜天天",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://apittzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "8day",
+                "name": "🪜七天",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://8day.icu/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "5bo1",
+                "name": "🪜五播",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://5bo1.xyz/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "91av",
+                "name": "🪜91视频",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://91av.cyou/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "92free",
+                "name": "🪜久爱",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://92free.icu/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "tmav",
+                "name": "🪜美亚",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://tmav.art/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "sezy",
+                "name": "🪜色网",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://sezy.website/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "xxavs",
+                "name": "🪜湿园",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://xxavs.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "qqcm",
+                "name": "🪜传媒",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://qqcm.sbs/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "auezy",
+                "name": "🪜优异",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://a.uezy.pw/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "hongxiuzy",
+                "name": "🪜红袖",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://hongxiuzy.com/api.php/provide/vod/"
+            },
+            {
+                "key": "apilsbzy1",
+                "name": "🪜色逼",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://apilsbzy1.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "toto-long",
+                "name": "🪜橘猫",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://to.to-long.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "huangpian",
+                "name": "🪜黄片",
+                "api": "./caiji.js",
+                "type": 1,
+                "ext": "https://www.pgxdy.com/api/json.php"
+            },
+            {
+                "key": "apittzy",
+                "name": "🪜探探",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://apittzy.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "huakuiapi",
+                "name": "🪜花魁",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://caiji.huakuiapi.com/inc/apijson_vod.php"
+            },
+            {
+                "key": "hghhh",
+                "name": "🪜皇冠",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://hghhh.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "slapibf",
+                "name": "🪜森林",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://slapibf.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "apiyutu",
+                "name": "🪜玉兔",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://apiyutu.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "hszy",
+                "name": "🪜黄色",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://hszy.me/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "haopianapi",
+                "name": "🪜好片",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://haopianapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "ziyuan",
+                "name": "🪜速看",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://ziyuan.skm3u8.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "jkunzyapi",
+                "name": "🪜鸡坤",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://jkunzyapi.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "10042",
+                "name": "🪜010爱",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://100.42.227.80/api/macs.php"
+            },
+            {
+                "key": "888dav",
+                "name": "🪜抖阴",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.888dav.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "91md",
+                "name": "🪜九麻",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://91md.me/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "msnii",
+                "name": "🪜美女",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.msnii.com/api/json.php"
+            },
+            {
+                "key": "xrbsp",
+                "name": "🪜淫水",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.xrbsp.com/api/json.php"
+            },
+            {
+                "key": "gdlsp",
+                "name": "🪜香奶",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.gdlsp.com/api/json.php"
+            },
+            {
+                "key": "kxgav",
+                "name": "🪜白嫖",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.kxgav.com/api/json.php"
+            },
+            {
+                "key": "afasu",
+                "name": "🪜湿妹",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://www.afasu.com/api/json.php"
+            },
+            {
+                "key": "dadiapi",
+                "name": "🪜大地",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://dadiapi.com/api.php"
+            },
+            {
+                "key": "lbapi9",
+                "name": "🪜乐播",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "https://lbapi9.com/api.php/provide/vod/at/json"
+            },
+            {
+                "key": "fhapi9",
+                "name": "🪜番号",
+                "type": 1,
+                "api": "./caiji.js",
+                "ext": "http://fhapi9.com/api.php/provide/vod/at/json"
+            }
+        ]
+    },
+    "read": {
+        "sites": [
+            {
+                "key": "bookan",
+                "name": "🎧博看",
+                "type": 10,
+                "api": "bookan_open.js"
+            },
+            {
+                "key": "laobai",
+                "name": "⚾老白",
+                "type": 10,
+                "api": "lbgs_open.js"
+            },
+            {
+                "key": "230ts",
+                "name": "♥爱上",
+                "type": 10,
+                "api": "230ts_book_open.js"
+            },
+            {
+                "key": "dj0898",
+                "name": "🥏听歌",
+                "type": 10,
+                "api": "dj0898_book_open.js"
+            }
+        ]
+    },
+    "pan": {
+        "sites": [
+            {
+                "key": "alist",
+                "name": "Alist",
+                "type": 40,
+                "api": "alist_open.js",
+                "ext": [
+                    {
+                        "name": "🙋丫仙女",
+                        "server": "http://alist.xiaoya.pro/",
+                        "startPage": "/",
+                        "showAll": false,
+                        "search": true,
+                        "headers": {
+                            "Authorization": ""
+                        },
+                        "params": {
+                            "/abc": {
+                                "password": "123"
+                            },
+                            "/abc/abc": {
+                                "password": "123"
+                            }
+                        }
+                    },
+{"name":"🔞ASMR语音","server":"https://www.asmrgay.com/"},
+{"name":"🔞大人盘","server": "https://hka.252798.xyz:1443/"},
+{"name":"🔞木偶","server":"https://abnormalize.icu/"},
+  {
+      "name": "🔞A大杂物库",
+      "server": "https://alist.qyide.com/"
+    },
+  {
+      "name": "🔞诸神小盘",
+      "server": "https://pan.zsxg.top/"
+    },
+  {
+      "name": "🔞福利盘",
+      "server": "http://69.161.221.160:5244/"
+    },
+  {
+      "name": "🔞罗汉果",
+      "server": "https://lala-ofbip.run.goorm.site/"
+    },
+    {
+      "name": "🔞涛涛收藏",
+      "server": "https://alist.eduedu.eu.org/"
+    },
+                    {
+                        "name": "🐋逗比鱼",
+                        "server": "https://dubi.tk/"
+                    },
+                    {
+                        "name": "🪅HTA资源",
+                        "server": "http://test.hta.ink/"
+                    },
+                    {
+                        "name": "⚜️91影视",
+                        "server": "https://alist.91ios.fun/"
+                    },
+                    {
+                        "name": "🎍柠木",
+                        "server": "http://pan.ipafree.top/"
+                    },
+                    {
+                        "name": "📯科技",
+                        "server": "https://pan.kejicode.cn/"
+                    },
+                    {
+                        "name": "🔅清烟",
+                        "server": "https://pan.qlam.cc/"
+                    },
+                    {
+                        "name": "🎇捷径",
+                        "server": "https://alist.jiejingfan.vip/"
+                    },
+                    {
+                        "name": "🌊七米",
+                        "server": "https://al.chirmyram.com"
+                    },
+                    {
+                        "name": "🐉神族",
+                        "server": "https://alist.shenzjd.com"
+                    },
+                    {
+                        "name": "☃️姬路",
+                        "server": "https://pan.jlbx.xyz"
+                    },
+                    {
+                        "name": "✨星梦",
+                        "server": "https://pan.bashroot.top"
+                    },
+                    {
+                        "name": "💢repl",
+                        "server": "https://ali.liucn.repl.co"
+                    },
+                    {
+                        "name": "💦讯维",
+                        "server": "https://pan.xwbeta.com"
+                    },
+                    {
+                        "name": "合集",
+                        "server": "http://www.jczyl.top:5244/"
+                    },
+                    {
+                        "name": "东哥",
+                        "server": "http://101.34.67.237:5244/"
+                    },
+                    {
+                        "name": "美云",
+                        "server": "https://h.dfjx.ltd/"
+                    },
+                    {
+                        "name": "小新盘",
+                        "server": "https://pan.cdnxin.top/"
+                    },
+                    {
+                        "name": "白云",
+                        "server": "http://breadmyth.asuscomm.com:22222/"
+                    },
+                    {
+                        "name": "小雅",
+                        "server": "http://www.214728327.xyz:5201/"
+                    },
+                    {
+                        "name": "瑶瑶",
+                        "server": "https://lyly.run.goorm.io/"
+                    },
+                    {
+                        "name": "潇洒",
+                        "server": "https://alist.azad.asia/"
+                    },
+                    {
+                        "name": "鹏程",
+                        "server": "https://pan.pengcheng.team/"
+                    },
+                    {
+                        "name": "轻弹",
+                        "server": "http://vtok.pp.ua/"
+                    },
+                    {
+                        "name": "触光",
+                        "server": "https://pan.ichuguang.com"
+                    },
+                    {
+                        "name": "星梦",
+                        "server": "https://pan.bashroot.top"
+                    },
+                    {
+                        "name": "弱水",
+                        "server": "http://shicheng.wang:555/"
+                    },
+                    {
+                        "name": "神器",
+                        "server": "https://alist.ygxz.xyz/"
+                    },
+                    {
+                        "name": "资源",
+                        "server": "https://pan.ecve.cn/"
+                    },
+                    {
+                        "name": "雨呢",
+                        "server": "https://pan.clun.top/"
+                    },
+                    {
+                        "name": "OEIO",
+                        "server": "https://o.oeio.repl.co/"
+                    },
+                    {
+                        "name": "悦享",
+                        "server": "https://nics.eu.org/"
+                    },
+                    {
+                        "name": "分享",
+                        "server": "https://ofoo.ml/"
+                    },
+                    {
+                        "name": "PRO",
+                        "server": "https://alist.prpr.run/"
+                    },
+                    {
+                        "name": "小陈",
+                        "server": "https://ypan.cc/"
+                    }
+                ]
+            }
+        ]
+    }
+}
