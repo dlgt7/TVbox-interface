@@ -1,89 +1,87 @@
 {
     "video": {
         "sites": [
-
-
-   {
-        "key": "kkys",
-        "name": "📺快看",
-        "type": 1,
-        "api": "./kkys_open.js"
-   },
- {
+            {
+                "key": "kkys",
+                "name": "📺快看",
+                "type": 1,
+                "api": "./kkys_open.js"
+            },
+            {
                 "key": "apilj",
                 "name": "🪜辣椒",
                 "type": 3,
                 "api": "./caiji.js",
                 "ext": "https://apilj.com/api.php/provide/vod/at/json/"
-            },      
-      {
-        "key": "mtsp",
-        "name": "🪜蜜桃",
-        "type": 3,
-        "api": "assets://js/mtsp_open.js"
-      },
+            },
+            {
+                "key": "mtsp",
+                "name": "🪜蜜桃",
+                "type": 3,
+                "api": "assets://js/mtsp_open.js"
+            },
             {
                 "key": "laoyac",
                 "name": "🪜老鸭",
                 "type": 3,
                 "api": "./caiji.js",
                 "ext": "https://api.apilyzy.com/api.php/provide/vod/"
-            },            
+            },
             {
                 "key": "jikun",
                 "name": "🪜鸡坤",
                 "type": 3,
                 "api": "./caiji.js",
                 "ext": "https://sewozyapi.com/api.php/provide/vod/"
-            },      
+            },
             {
                 "key": "yutuu",
                 "name": "🪜玉兔",
                 "type": 3,
                 "api": "./caiji.js",
                 "ext": "https://api.sexnguon.com/api.php/provide/vod/"
-            },  
-              {
+            },
+            {
                 "key": "xiezhen",
                 "name": "🪜写真",
                 "type": 1,
                 "api": "./caiji.js",
                 "ext": "https://kkzy.me/api.php/provide/vod/"
-            },                
+            },
             {
                 "key": "shayuu",
                 "name": "🪜鲨鱼",
                 "type": 3,
                 "api": "./caiji.js",
                 "ext": "https://shayuapi.com/api.php/provide/vod/"
-            },            
+            },
             {
                 "key": "tianmei",
                 "name": "🪜天美",
                 "type": 3,
                 "api": "./caiji.js",
                 "ext": "https://api.yikanapi.com/api.php/provide/vod/"
-            },            
+            },
             {
                 "key": "chunmei",
                 "name": "🪜传媒",
                 "type": 1,
                 "api": "./caiji.js",
-                "ext": "https://api.maozyapi.com/inc/apijson_vod.php"},
+                "ext": "https://api.maozyapi.com/inc/apijson_vod.php"
+            },
             {
                 "key": "mangguo",
                 "name": "🪜忙果",
                 "type": 1,
                 "api": "./caiji.js",
                 "ext": "https://madoucun.cn/api.php/provide/vod/?ac=xml"
-            },                       
-                      
-      {
-        "key": "18av",
-        "name": "🪜大人",
-        "type": 3,
-        "api": "assets://js/18av_open.js"
-      },   
+            },
+            {
+                "key": "18av",
+                "name": "🪜大人",
+                "type": 3,
+                "api": "assets://js/18av_open.js"
+            },
             {
                 "key": "mifeng",
                 "name": "🪜蜜蜂",
@@ -1008,29 +1006,38 @@
                             }
                         }
                     },
-{"name":"🔞ASMR语音","server":"https://www.asmrgay.com/"},
-{"name":"🔞大人盘","server": "https://hka.252798.xyz:1443/"},
-{"name":"🔞木偶","server":"https://abnormalize.icu/"},
-  {
-      "name": "🔞A大杂物库",
-      "server": "https://alist.qyide.com/"
-    },
-  {
-      "name": "🔞诸神小盘",
-      "server": "https://pan.zsxg.top/"
-    },
-  {
-      "name": "🔞福利盘",
-      "server": "http://69.161.221.160:5244/"
-    },
-  {
-      "name": "🔞罗汉果",
-      "server": "https://lala-ofbip.run.goorm.site/"
-    },
-    {
-      "name": "🔞涛涛收藏",
-      "server": "https://alist.eduedu.eu.org/"
-    },
+                    {
+                        "name": "🔞ASMR语音",
+                        "server": "https://www.asmrgay.com/"
+                    },
+                    {
+                        "name": "🔞大人盘",
+                        "server": "https://hka.252798.xyz:1443/"
+                    },
+                    {
+                        "name": "🔞木偶",
+                        "server": "https://abnormalize.icu/"
+                    },
+                    {
+                        "name": "🔞A大杂物库",
+                        "server": "https://alist.qyide.com/"
+                    },
+                    {
+                        "name": "🔞诸神小盘",
+                        "server": "https://pan.zsxg.top/"
+                    },
+                    {
+                        "name": "🔞福利盘",
+                        "server": "http://69.161.221.160:5244/"
+                    },
+                    {
+                        "name": "🔞罗汉果",
+                        "server": "https://lala-ofbip.run.goorm.site/"
+                    },
+                    {
+                        "name": "🔞涛涛收藏",
+                        "server": "https://alist.eduedu.eu.org/"
+                    },
                     {
                         "name": "🐋逗比鱼",
                         "server": "https://dubi.tk/"
