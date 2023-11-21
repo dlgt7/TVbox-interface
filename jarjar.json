@@ -1,0 +1,50 @@
+1、Android Killer V1.3.1.0
+用于修改smali文件，解包和打包
+
+2、dex2jar2.1
+用于将dex转成可以查看的jar，主要用于查看源码
+
+1. 进入cmd ,输入D:  打开到D盘
+2. 定位到dex2jar文件夹位置，比如cd D:/Program/dex2jar-2.0
+3. 执行bat文件，如d2j-dex2jar classes.dex（classes.dex是拷贝到该目录下的文件）
+4. dex2jar文件夹中便会生成对应的jar文件
+
+3、jd-gui(Android Killer解压，bin文件夹里)
+用于查看dex2jar生成的jar包中的代码
+
+4、xposed框架+fdex2
+加固脱壳，这个在手机上装个xposed框架，然后在框架里下载即可
+
+1. 手机root后安装xposed，或者不root安装VirtualXposed
+2. 安装fdex2.apk
+3. xposed或者VirtualXposed中启用fdex2，重启手机
+4. 在fdex2中选择hook的app，打开该app
+5. 打开data/user/0/包名 拷贝出里面的dex到电脑
+
+5、apktools.jar和baksmali.jar
+apktools可以把apk反编译，或者把反编译的代码打包成apk
+
+1. 把apktools.jar放在APKKiller的安装目录/bin/apktools里
+2. 在Android Killer中，选择顶部Android->APKTOOL管理器->添加，把最新版的apktools.jar加进去，并且在底下选择Apktool版本
+baksmali可以把dex转为smail
+
+
+新版apktool下载地址
+
+apktool源码 作者：iBotPeaches       https://github.com/iBotPeaches/Apktool
+
+新版baksmali下载地址
+
+smali/baksmali源码 作者：JesusFreke]    https://github.com/JesusFreke/smali
+
+1. 首先配置好java的环境变量
+2. 进入cmd ,输入D:  打开到D盘
+3. 定位到jar所在文件夹位置，比如cd D:/Program/apktool和baksmali
+4. 执行baksmali的jar，如D:\Program\apktool和baksmali>java -jar baksmali_2.2.5.jar d dex1.dex
+5. 执行apktools的jar，如D:\Program\apktool和baksmali>java -jar apktool_2.3.4.jar d biquge.apk -o outdir
+ 先在jadx-gui里查看混淆后的java代码，再在Android Killer里根据方法名称，定位修改smail源码，修改好之后，再使用Android Killer重新打包
+
+6、framework-res.apk
+这是框架资源文件，用于反编译资源文件。
+
+使用Android Killer时，可能会提示部分资源反编译失败，此时应该将此文件更名为1.apk,替换到C:\Users\用户名\apktool\framework\1.apk（win11是C:\Users\用户名\AppData\Local\apktool\framework\1.apk）。注意，别用AndroidKiller自带的安装，如果安装了，也需要手动拷贝进去覆盖掉，因为AndroidKiller自动安装的有问题，这个框架资源是从安卓8.0提取的 其他版本的可以AndroidStudio启动个模拟器，在/sytem/framework/framework-res.apk提取出来
