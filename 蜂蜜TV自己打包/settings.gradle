@@ -1,0 +1,38 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        jcenter()
+        google()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+        flatDir {
+            dirs "$rootDir/app/libs"
+        }
+        maven {
+            url "https://jitpack.io"
+        }
+        maven {
+            url "http://4thline.org/m2"
+            allowInsecureProtocol = true
+        }
+    }
+}
+include ':app'
+include ':hook'
+include ':tvbus'
+include ':catvod'
+include ':pyramid'
+include ':danmaku'
+include ':quickjs'
+include ':thunder'
+include ':jianpian'
+include ':forcetech'
+include ':ijkplayer'
+rootProject.name = "TV"
