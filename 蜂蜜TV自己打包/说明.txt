@@ -26,4 +26,5 @@ app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png
 app/src/main/assets/index.html
 app/src/main/res/values/strings.xml
 settings.gradle
+8、版本号修改。build.gradle
 
