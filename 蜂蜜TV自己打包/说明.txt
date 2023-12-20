@@ -2,3 +2,4 @@
 2、settings.gradle
 3、.github/workflows/test.yml
 4、.github/workflows/TVBoxOSC.jks
+5、内置源修改：app/src/main/java/com/fongmi/android/tv/api/ApiConfig.java
