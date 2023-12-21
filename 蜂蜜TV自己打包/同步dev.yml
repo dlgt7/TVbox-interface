@@ -1,0 +1,30 @@
+name: Merge upstream dev→dev
+
+on:
+  # 推送代码后触发
+  push:
+  # 定时任务触发，使用 cron 规则，这里默认一小时执行一次
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Merge upstream
+        run: |
+          # 使用自己的用户名替换 username
+          git config --global user.name 'dlgt7'
+          git config --global user.email 'dlgt7@gmail.com'
+          git pull --unshallow
+          # 自行替换要同步的上游仓库地址
+          git remote add upstream https://github.com/FongMi/TV.git
+          git fetch upstream
+          git checkout --track origin/dev
+          git merge upstream/dev
+          git pull origin dev
+          git push origin dev
+         
+          
