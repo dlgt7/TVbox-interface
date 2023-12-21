@@ -23,8 +23,8 @@ app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png
 app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png
 
 7、app名称修改：
-app/src/main/assets/index.html
 app/src/main/res/values/strings.xml
+app/src/main/assets/index.html
 settings.gradle
 8、版本号修改。build.gradle
 
