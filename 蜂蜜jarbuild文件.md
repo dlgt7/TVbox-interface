@@ -3,6 +3,7 @@ name: Spider
 on:
   workflow_dispatch:
 ## 特别鸣谢：代码是摘抄自：https://github.com/mymine/CatVodTVSpider。
+## 声明：本人不会任何编程语言，只是网上收集，收集到大佬代码，需要删除的留言。
 jobs:
   build:
 
