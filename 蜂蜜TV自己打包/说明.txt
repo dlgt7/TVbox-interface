@@ -2,6 +2,7 @@
 2、settings.gradle
 3、.github/workflows/test.yml
 4、.github/workflows/TVBoxOSC.jks
+5、.gitignore
 以上是打包，以下是个性修改。
 5、内置源修改：app/src/main/java/com/fongmi/android/tv/api/ApiConfig.java
 6、APP图标修改：
