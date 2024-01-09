@@ -1,6 +1,6 @@
 1、已经创建好的Gitee电视源仓库：
 
-https://
+https://gitee.com/huangyang20080/cctv/raw/master/IPTV.m3u
 
 2、电视源网站（IT技术之家）
 
