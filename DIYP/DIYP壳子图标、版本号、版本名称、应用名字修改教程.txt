@@ -22,3 +22,19 @@ res
 assets
 
 副资源文件夹，有一些软件中需要调用的资源会在这个文件夹内。
+
+
+
+APK Editor Pro 打开 DIYP电视壳子 进行编辑，改换软件名称、图标、图片、接口等内容，最后编译生成自己的apk软件。
+
+软件名称在：/res/values/strings.xml
+
+图标位置：/res/mipmap-hdpi-v4/
+
+启动图位置：/res/drawable-hdpi-v4/
+
+dup_0x7f070065.png
+
+退出图位置：/res/drawable-hdpi-v4/
+
+dup_0x7f070064.png
