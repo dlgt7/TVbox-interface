@@ -1,0 +1,15 @@
+﻿栏目名称1,#genre#
+频道名称a,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
+频道名称b,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
+频道名称c,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
+
+栏目名称2,#genre#
+频道名称IPv6,http://[2409:8087:1e03:21::35]:6610/cms001/ch00000090990000001102/index.m3u8?IASHttpSessionId=RR1550020231201050336120465&ispcode=12#http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001102/index.m3u8
+
+Q群号：,#genre#
+频道名称,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
+
+297361601,#genre#
+频道名称,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
+频道名称,https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
+ 
