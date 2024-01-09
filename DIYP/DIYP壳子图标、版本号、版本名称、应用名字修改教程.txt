@@ -38,3 +38,6 @@ dup_0x7f070065.png
 退出图位置：/res/drawable-hdpi-v4/
 
 dup_0x7f070064.png
+
+
+壳子内接口链接在：/smali/setting/MySettings.smali
