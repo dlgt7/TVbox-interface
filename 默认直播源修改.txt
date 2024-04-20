@@ -1,0 +1,4 @@
+如果需要使用URL.java中的DEFAULT_LIVE_URL添加默认直播源的话，需要在app/src/main/java/com/github/tvbox/osc/bbox/base/App.java的putDefaultApis()方法中添加代码
+
+putDefault(HawkConfig.LIVE_URL, URL.DEFAULT_LIVE_URL);
+这样配置的默认直播源就能生效了
