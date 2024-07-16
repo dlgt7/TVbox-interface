@@ -1,8 +1,74 @@
 1、app/build.gradle
+    implementation project(':quickjs')
+    pythonImplementation project(':pyramid') 
+说明：####implementation project(':quickjs')下边添加pythonImplementation project(':pyramid') 
 2、settings.gradle
-3、.github/workflows/test.yml
-4、.github/workflows/TVBoxOSC.jks
-5、.gitignore
+   include ':quickjs'
+   include ':pyramid'
+说明####include ':quickjs'下边添加include ':pyramid'
+3、.github/workflows/test.yml  以下是acttion代码，支持python，需要自己签名。
+
+name: Test Build
+
+on:
+#  push:
+#    branches: [ "release" ]
+#  pull_request:
+#    branches: [ "release" ]
+  workflow_dispatch: # 手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      ANDROID_API_LEVEL: 30
+      ANDROID_BUILD_TOOLS_VERSION: 30.0.3
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Download Android SDK
+        run: |
+          mkdir -p $ANDROID_SDK_ROOT/cmdline-tools
+          curl -fo sdk-tools.zip https://dl.google.com/android/repository/commandlinetools-linux-7302050_latest.zip
+          unzip -q sdk-tools.zip -d $ANDROID_SDK_ROOT/cmdline-tools
+          rm sdk-tools.zip
+          mv $ANDROID_SDK_ROOT/cmdline-tools/cmdline-tools $ANDROID_SDK_ROOT/cmdline-tools/latest
+
+      - name: Install Android SDK packages
+        run: |
+          yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --sdk_root=$ANDROID_SDK_ROOT --licenses
+          $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --sdk_root=$ANDROID_SDK_ROOT "platform-tools" "platforms;android-${ANDROID_API_LEVEL}" "build-tools;${ANDROID_BUILD_TOOLS_VERSION}"
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build with Gradle
+        run: ./gradlew assembleRelease
+
+      - name: Prepare App
+        run: |
+          mkdir -p ${{ github.workspace }}/apk/
+          for file in `find ~ -name "*.apk" -print`; do
+            mv "$file" ${{ github.workspace }}/apk/
+          done
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release
+          path: ${{ github.workspace }}/apk/*
+
 以上是打包，以下是个性修改。
 5、内置源修改：app/src/main/java/com/fongmi/android/tv/api/ApiConfig.java
 6、APP图标修改：
