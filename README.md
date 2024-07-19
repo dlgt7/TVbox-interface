@@ -72,53 +72,34 @@ https://waurl.cn
 
 https://dwz.dk
 
-## 壁纸：
-
-http://www.kf666888.cn/api/tvbox/img
-
-https://picsum.photos/1280/720/?blur=10
-
-https://qiu.moe/a723
-
-
-## 解析测试：
-
-http://www.36nu.com/apiTest
-
-### 更新
-
-## 多jar链接写法，根据app版本来：
-
-## Pluto Player版本：
-
-{"key":"***","name":"***","api":"***","type":3,"filterable":1,"quickSearch":1,"searchable":1,"plugin":"http://****/*.jar"},
-
-## 这个：
-
-{"key":"***","name":"***","type":3,"api":"***","searchable":1,"quickSearch":1,"filterable":1,"spider":"http://****/*.jar"},
-
-## 俊佬版本多jar链接写法：
-
-{"key":"***","name":"***","type":3,"api":"***","searchable":1,"quickSearch":1,"filterable":1,"jar":"your_other_jar"},
-
 
 ## 牛人制作网站：版本收集、接口收集、TG群收集，小白有这个网站能躺平了！也可以自己微信公众号搜集。
 
-云星：https://shou.eruu.cn/
-
 奇奇：http://bbs.qiqiv.cn/thread-11973-1-1.html
+IPTVindex：https://www.iptvindex.com/
+##接口汇总网站：https://cyuan.netlify.app/    
+##接口汇总网站：https://xn--qoqw77q.top/
+## 奥秘博客：https://omii.top/
+欧歌：http://tv.nxog.top/
+饭太硬：https://www.xn--sss604efuw.com/
+菜妮丝：https://tv.xn--yhqu5zs87a.top/
+肥猫：https://xn--z7x900a.live/
+PGone：https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json
 
-https://github.com/tv-player/TvBox
+阅读：http://www.yckceo.com/
+miru：https://miru.js.org/
+海阔世界:
+小程序：云盘君.简    https://cmd.im/3dtr
+小程序：dm盒子   https://cmd.im/ftcm
+小程序：道长仓库Pro  https://cmd.im/4swu
 
-## 神人年年有，今年特别多，接口焦虑症的小白看这，自动获取接口。
-
-https://github.com/vpei/Free-TVUrl-Merge
+六音：https://6yso.com   https://www.sixyin.com
 
 ## TVBox配置编辑器：
 
-https://kvymin.github.io/CatVodTVJsonEditor/
+https://zhixc.github.io/CatVodTVJsonEditor/
 
-http://cron.qiqiv.cn/cron/abc/123/
+https://kvymin.github.io/CatVodTVJsonEditor/
 
 ## 给TVbox站源添加符号:
 
@@ -139,7 +120,9 @@ https://github.com/cloudreve/Cloudreve
 
 ## 比较牛逼的仓库：
 
-唐三大佬仓库地址：https://github.com/Tangsan99999/TvJar 删库了
+FongMi-TV:内有2个版本，一个是ok版本，一个是fongmi版本
+
+https://github.com/FongMi/TV         https://github.com/okcaptain/TV
 
 于俊大佬：
 
@@ -149,31 +132,13 @@ takagen99大佬：
 
 https://github.com/takagen99/TVBoxOSC
 
-FongMi-TV:
 
-https://github.com/FongMi/TV
 
-TV猫盒：
-
-https://github.com/kensonmiao/CatVodTVOSC
-
-pluto-player：不开源 A佬。魔改，改动大，功能多，能在线升级，目前不支持低版本安卓。
-
-https://github.com/pluto-player/updates
-
-o0HalfLife0o：
-
-https://github.com/o0HalfLife0o/TVBoxOSC
-
-https://github.com/o0HalfLife0o/AlphaTV
+版本发布o0HalfLife0o：https://github.com/o0HalfLife0o/TVBoxOSC
 
 clanTV：
 
 https://github.com/clanTV/clanTV
-
-BearTV:
-
-https://github.com/haha459862/BearTV
 
 官仓：终结于2022年7月18日。封仓。
 
