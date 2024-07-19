@@ -166,6 +166,17 @@ https://github.com/CatVodTVOfficial/TVBoxOSC
          
 开源手机版：https://github.com/XiaoRanLiu3119/TVBoxOS
 
+基于fongmi桌面版：https://github.com/Greatwallcorner/TV-Multiplatform
+
+桌面版配套爬虫：https://github.com/Greatwallcorner/CatVodSpider
+
+ZyPlayer桌面版：https://github.com/Hiram-Wong/ZyPlayer
+
+ZyPlayer手机版：
+
+猫影视：https://github.com/catvod/CatVodOpen
+
+各种版本很多，都很有特色，根据自己的喜好，加一些QQ群，或者朋友推荐，找适合自己的版本。
 
 自己动手升级PYthon版本参照下面仓库：里边有操作说明，复制代码，粘贴就行。
 
