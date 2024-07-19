@@ -150,6 +150,8 @@ takagen99大佬：
 
 https://github.com/takagen99/TVBoxOSC
 
+影视仓  公众号：派大星开发
+
 竹子哥：https://github.com/zhuziwuming/TVBoxOSq
 
 版本发布o0HalfLife0o：https://github.com/o0HalfLife0o/TVBoxOSC
@@ -175,6 +177,8 @@ ZyPlayer桌面版：https://github.com/Hiram-Wong/ZyPlayer
 ZyPlayer手机版：
 
 猫影视：https://github.com/catvod/CatVodOpen
+
+配套爬虫：https://github.com/jadehh/TVSpider
 
 各种版本很多，都很有特色，根据自己的喜好，加一些QQ群，或者朋友推荐，找适合自己的版本。
 
