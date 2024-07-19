@@ -162,7 +162,7 @@ https://github.com/CatVodTVOfficial/TVBoxOSC
 
 弹幕版本：https://github.com/lppsuixn/Box
 
-         https://github.com/lppsuixn/TVBoxOS
+弹幕版本：https://github.com/lppsuixn/TVBoxOS
          
 开源手机版：https://github.com/XiaoRanLiu3119/TVBoxOS
 
