@@ -75,15 +75,17 @@ https://dwz.dk
 
 ## 牛人制作网站：版本收集、接口收集、TG群收集，小白有这个网站能躺平了！也可以自己微信公众号搜集。
 
+道长_DR_JS:https://github.com/hjdhnx/dr_py.git
+
 奇奇：http://bbs.qiqiv.cn/thread-11973-1-1.html
 
 IPTVindex：https://www.iptvindex.com/
 
-##接口汇总网站：https://cyuan.netlify.app/   
+接口汇总网站：https://cyuan.netlify.app/   
 
-##接口汇总网站：https://xn--qoqw77q.top/
+接口汇总网站：https://xn--qoqw77q.top/
 
-## 奥秘博客：https://omii.top/
+奥秘博客：https://omii.top/
 
 欧歌：http://tv.nxog.top/
 
@@ -148,21 +150,22 @@ takagen99大佬：
 
 https://github.com/takagen99/TVBoxOSC
 
-
+竹子哥：https://github.com/zhuziwuming/TVBoxOSq
 
 版本发布o0HalfLife0o：https://github.com/o0HalfLife0o/TVBoxOSC
-
-clanTV：
-
-https://github.com/clanTV/clanTV
 
 官仓：终结于2022年7月18日。封仓。
 
 https://github.com/CatVodTVOfficial/TVBoxOSC
 
-多线路TV版本仓库：
+多仓版本：https://github.com/mlabalabala/box
 
-https://github.com/tv-player
+弹幕版本：https://github.com/lppsuixn/Box
+
+         https://github.com/lppsuixn/TVBoxOS
+         
+开源手机版：https://github.com/XiaoRanLiu3119/TVBoxOS
+
 
 自己动手升级PYthon版本参照下面仓库：里边有操作说明，复制代码，粘贴就行。
 
@@ -170,7 +173,7 @@ https://github.com/UndCover/PyramidStore
 
 手残的话，用下边这个方法，一键生成，不用自己复制代码。根据自己需要稍稍修改一下子。
 
-https://github.com/lm317379829/TVBoxDIY
+https://github.com/lm317379829/TVBoxDIY    已经删库，但是你搜TVBoxDIY会有很多，自己照着修改一下。
 
 ## 常用工具：
 
@@ -234,9 +237,13 @@ jar打包：在jar仓库里依次点击：actions-workflows-spider jar gen cl-ru
 
 jar打包成功实例仓库：仅供参考，自行添加新的，删除或者修改失效的。https://github.com/dlgt7/TvJar
 
-https://github.com/Kimlee-cmd/TvJar
+https://github.com/mymine/CatVodTVSpider/actions
 
-https://github.com/Kvymin/CatVod  
+ https://github.com/zhixc/CatVodTVSpider
+
+https://github.com/FongMi/CatVodSpider
+
+https://github.com/Kvymin/CatVodSpider
 
 传说中的T4类型，仓库地址如下，自己研究。
 
