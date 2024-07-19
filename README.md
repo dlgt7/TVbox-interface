@@ -76,21 +76,35 @@ https://dwz.dk
 ## 牛人制作网站：版本收集、接口收集、TG群收集，小白有这个网站能躺平了！也可以自己微信公众号搜集。
 
 奇奇：http://bbs.qiqiv.cn/thread-11973-1-1.html
+
 IPTVindex：https://www.iptvindex.com/
-##接口汇总网站：https://cyuan.netlify.app/    
+
+##接口汇总网站：https://cyuan.netlify.app/   
+
 ##接口汇总网站：https://xn--qoqw77q.top/
+
 ## 奥秘博客：https://omii.top/
+
 欧歌：http://tv.nxog.top/
+
 饭太硬：https://www.xn--sss604efuw.com/
+
 菜妮丝：https://tv.xn--yhqu5zs87a.top/
+
 肥猫：https://xn--z7x900a.live/
+
 PGone：https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json
 
 阅读：http://www.yckceo.com/
+
 miru：https://miru.js.org/
+
 海阔世界:
+
 小程序：云盘君.简    https://cmd.im/3dtr
+
 小程序：dm盒子   https://cmd.im/ftcm
+
 小程序：道长仓库Pro  https://cmd.im/4swu
 
 六音：https://6yso.com   https://www.sixyin.com
@@ -122,7 +136,9 @@ https://github.com/cloudreve/Cloudreve
 
 FongMi-TV:内有2个版本，一个是ok版本，一个是fongmi版本
 
-https://github.com/FongMi/TV         https://github.com/okcaptain/TV
+https://github.com/FongMi/TV         
+
+https://github.com/okcaptain/TV
 
 于俊大佬：
 
