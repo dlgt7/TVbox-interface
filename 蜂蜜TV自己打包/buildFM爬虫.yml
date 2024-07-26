@@ -1,0 +1,83 @@
+name: build
+
+on:
+#  push:
+#    branches: ['main']
+#  pull_request:
+#    branches: ['main']
+# 触发条件：当有代码推送到main分支或者有针对main分支的合并请求时，这个工作流会被触发。
+  workflow_dispatch: # 手动触发
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+# 并发控制：
+# group：定义了并发组的名称，这里使用了工作流名称和分支名称或PR编号。
+# cancel-in-progress：如果新的构建开始，将会取消正在进行中的构建。
+jobs:
+  build:
+    # 作业：定义了一个名为build的作业。
+    strategy:
+      matrix:
+        platform: [ubuntu-latest]
+        go-version: ['1.21']
+    # 策略：定义了构建策略，这里使用了矩阵策略，指定了在ubuntu-latest平台上使用Go语言版本1.21。
+    name: Build
+    runs-on: ${{ matrix.platform }}
+    steps:
+      # 步骤：定义了作业中需要执行的步骤。
+      - uses: actions/checkout@v4
+       # 检出代码：使用actions/checkout@v4动作来检出代码仓库。
+      - name: set up JDK
+        uses: actions/setup-java@v3.11.0
+        with:
+          java-version: '18'
+          distribution: 'temurin'
+        # 设置JDK：设置Java开发环境，使用actions/setup-java@v3.11.0动作，指定Java版本为18，分发版为temurin。
+      - name: Clone project
+        run: |
+          rm -rf project
+          rm -rf jar/custom_spider.jar
+          git clone --recurse-submodules https://github.com/dlgt7/FMCatVodSpider project
+        # 克隆项目：删除旧的项目目录和Jar文件，然后从指定的GitHub仓库克隆项目代码，包括子模块。
+      - name: Customize Spider
+        working-directory: ./project
+        run: |
+          sed -i 's/gradle-7.4.2-all/gradle-7.5-bin/g' gradle/wrapper/gradle-wrapper.properties
+          #sed -i 's/原畫/原画/g;s/普畫/普画/g;s/轉存/转存/g;s/極速/极速/g' app/src/main/java/com/github/catvod/spider/Ali.java
+          #sed -i 's/原畫/原画/g;s/普畫/普画/g;s/轉存/转存/g;s/極速/极速/g;s/阿里雲盤/阿里云盘/g' app/src/main/java/com/github/catvod/api/AliYun.java
+          #curl -L https://github.com/oiltea/CatVodSpider/raw/9ab5cc627be4096db11bca9ee9177c13014ddadd/app/src/main/java/com/github/catvod/spider/Wogg.java > app/src/main/java/com/github/catvod/spider/Wogg.java
+          #sed -i 's/thread = 10/thread = 64/g' app/src/main/java/com/github/catvod/api/AliYun.java
+        # 自定义爬虫：在项目目录中运行命令，修改Gradle版本，注释掉的行是一些示例，用于修改源代码中的文本。
+      - name: Build the app
+        working-directory: ./project
+        run: |
+          chmod +x gradlew
+          ./gradlew assemblerelease --build-cache --parallel --daemon --warning-mode all
+        # 构建应用：在项目目录中运行命令，使gradlew脚本可执行，并执行Gradle命令来构建应用。
+      - name: Customize Spider Jar
+        working-directory: ./project
+        run: |
+          rm -rf jar/custom_spider.jar
+          rm -rf jar/spider.jar/original/META-INF
+          curl -L https://github.com/iBotPeaches/Apktool/releases/download/v2.7.0/apktool_2.7.0.jar > jar/3rd/apktool_2.7.0.jar
+          java -jar jar/3rd/baksmali-2.5.2.jar d app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex -o jar/Smali_classes
+          mkdir -p jar/spider.jar/smali/com/github/catvod/
+          mv jar/Smali_classes/com/github/catvod/spider jar/spider.jar/smali/com/github/catvod/
+          java -jar jar/3rd/apktool_2.7.0.jar b jar/spider.jar -c
+          mv jar/spider.jar/dist/dex.jar ../jar/custom_spider.jar
+          md5=($(md5sum ../jar/custom_spider.jar))
+          echo $md5 > ../jar/custom_spider.jar.md5
+          # 自定义爬虫Jar包：删除旧的Jar文件，下载必要的工具，反编译应用，重打包成Jar文件，并计算其MD5值。
+      - name: Upload APK
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: Spider
+          path: ./jar/custom_spider.jar
+       # 上传APK：使用actions/upload-artifact@v3.1.2动作上传构建好的APK文件。
+      - name: Update spider jar
+        uses: EndBug/add-and-commit@v9.1.3
+        with:
+          default_author: github_actions
+          message: 'update spider jar'
+          add: "['./jar/custom_spider.jar', './jar/custom_spider.jar.md5']"
+      # 更新爬虫Jar包：使用EndBug/add-and-commit@v9.1.3动作自动提交更新后的Jar包和其MD5值文件。
