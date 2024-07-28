@@ -87,6 +87,8 @@ IPTVindex：https://www.iptvindex.com/
 
 奥秘博客：https://omii.top/
 
+影视仓库：http://www.wmdz.com/
+
 欧歌：http://tv.nxog.top/
 
 饭太硬：https://www.xn--sss604efuw.com/
