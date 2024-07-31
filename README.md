@@ -389,6 +389,8 @@ private void initParams() {
 
 }
 
+https://github-profile-trophy.vercel.app/?username=dlgt7
+
 ### Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/dlgt7/TVbox-interface.svg)](https://starchart.cc/dlgt7/TVbox-interface)
