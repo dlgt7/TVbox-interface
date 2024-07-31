@@ -389,7 +389,10 @@ private void initParams() {
 
 }
 
-https://github-profile-trophy.vercel.app/?username=dlgt7
+
+<p>
+  <img align="left" src="https://github-profile-trophy.vercel.app/?username=LouisLiu00&theme=onedark&column=-1&margin-w=15" />
+</p>
 
 ### Stargazers over time
 
