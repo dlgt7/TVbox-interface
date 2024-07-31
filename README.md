@@ -10,68 +10,45 @@
 
 2、https://gitee.com/
 
-3、https://agit.ai/
+3、云储： https://yunchu.cxoip.com/
 
-4、云储： https://yunchu.cxoip.com/
+4、腾讯云： https://coding.net/
 
-5、腾讯云： https://coding.net/
+5、比邻： https://pan.bilnn.com 收费了，能在线编辑
 
-6、比邻： https://pan.bilnn.com 收费了，能在线编辑
+6、惜染 https://mpimg.cn/ 
 
-7、惜染 https://mpimg.cn/ 不能在线编辑
+7、OpenDrive: https://www.opendrive.com/ 能在线编辑，慢
 
-8、枫铭网盘： https://pan.dkpoi.com 不能编辑
+8、ifilespace https://demo.ifile.space/main
 
-9、OpenDrive: https://www.opendrive.com/ 能在线编辑，慢
+9、七彩云存储： https://cloud.06dn.com/login
 
-10、ifilespace https://demo.ifile.space/main
+10、棱束链： https://www.lingshulian.com/
 
-11、七彩云存储： https://cloud.06dn.com/login
+11、凯速网https://my.ksust.com
 
-12、棱束链： https://www.lingshulian.com/
+12、https://www.jsdelivr.com/
 
-13、凯速网https://my.ksust.com
+13、恩华云盘：https://pan.ehvip.cn
 
-14、https://www.jsdelivr.com/
+14、https://gitcode.net/explore
 
-15、恩华云盘：https://pan.ehvip.cn
+15、https://codeberg.org/
 
-16、https://gitcode.net/explore
-
-17、吾爱云盘：[http://52bsj.vip:81/login](http://吾爱.top:81)
-
-18、https://codeberg.org/
-
-19、https://www.notabug.org
+16、https://www.notabug.org
 
 ## 短链接制作网址：哪个稳定自己测试。
 
 https://gg.gg 
 
-https://qiu.moe
-
 https://www.c1n.cn
 
-https://0dlj.cn
-
-https://0a.fit
-
 http://mtw.so
-
-https://sd4.cn
-
-https://pqu.cn
-
-https://88d.cn
-
-https://loveer.win
 
 https://mtool.chinaz.com/dwz
 
 https://waurl.cn
-
-https://dwz.dk
-
 
 ## 牛人制作网站：版本收集、接口收集、TG群收集，小白有这个网站能躺平了！也可以自己微信公众号搜集。
 
