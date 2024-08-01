@@ -78,7 +78,11 @@ PGone：https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/m
 
 高天流云：https://github.com/gaotianliuyun/gao
 
+视频源检测与合并工具：https://github.com/openmynet/tvboxsp
+
 阅读：http://www.yckceo.com/
+
+阅读：https://legado.aoaostar.com/
 
 miru：https://miru.js.org/
 
