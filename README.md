@@ -15,8 +15,6 @@ tbox：念心小站https://www.nxinxz.com/
 
 http://bhapp.top/
 
-https://gitea.moe/
-
 ## 阅读：
 http://www.yckceo.com/
 
@@ -30,7 +28,7 @@ https://shuyuan.yiove.com/complex
 
 ### TVBox资源接口外链托管网址：感觉哪个好用用哪个，能不能用，好不要用，有没有坑，自己测试。网上的东西，只是收集，不做测试推荐。
 
-1、https://gitea.com/  已开始限制，清理
+1、https://gitea.moe/
 
 2、https://gitee.com/
 
