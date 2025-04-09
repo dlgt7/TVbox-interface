@@ -305,7 +305,7 @@ https://down.52pojie.cn/Tools/
 
 ![2](https://user-images.githubusercontent.com/102397160/182570594-fb517091-32a1-482b-b0b1-f27b22e8866e.png)
 
-3、选中，并导出你需要的文件：
+3、选中，并批量导出你需要的文件：
 
 ![3](https://user-images.githubusercontent.com/102397160/182570767-a235339c-dbf6-4ce2-8602-67ea06d1c5c3.png)
 
