@@ -324,6 +324,8 @@ https://down.52pojie.cn/Tools/
 
 试试吧，不一定对。
 
+缝包时的精简：使用Maven工具。
+
 ## 今天看到一个新的教程：
 【教程】Pluto player影视软件新姿势_无密码挂载alist_免费观看原画 
 
