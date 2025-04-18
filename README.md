@@ -326,6 +326,97 @@ https://down.52pojie.cn/Tools/
 
 缝包时的精简：使用Maven工具。
 
+以下是针对合并并精简 TVBox 相关 JAR 包的详细步骤指南，工具和操作均以小白友好方式描述：
+
+---
+
+### **一、准备工作**
+1. **工具下载**：
+   - 压缩工具：[7-Zip](https://www.7-zip.org/)（用于解压/压缩 JAR）
+   - 代码反编译工具：[JD-GUI](http://java-decompiler.github.io/)（查看类文件内容）
+   - 代码混淆工具：[ProGuard](https://github.com/Guardsquare/proguard)（精简和优化代码）
+   - 文件对比工具：[WinMerge](https://winmerge.org/)（对比重复文件）
+   - Java 环境：确保已安装 [JDK](https://www.oracle.com/java/technologies/downloads/)（需 `java` 和 `jar` 命令）
+
+2. **备份原始 JAR**：
+   - 复制原始 JAR 包到安全位置，避免操作失误导致文件损坏。
+
+---
+
+### **二、合并 JAR 包**
+#### **步骤 1：解压 JAR 文件**
+1. 创建两个空文件夹，如 `jar1` 和 `jar2`。
+2. 右键点击第一个 JAR 文件，选择 **7-Zip → Extract to "jar1\"**。
+3. 同理解压第二个 JAR 到 `jar2` 文件夹。
+
+#### **步骤 2：合并文件夹**
+1. 新建一个文件夹 `merged`，将 `jar1` 和 `jar2` 的内容全部复制进去。
+2. **处理重复文件**：
+   - 使用 **WinMerge** 打开 `merged` 文件夹，对比重复文件。
+   - 若发现同名但内容不同的类（如 `a.class` 和 `a.class`），用 JD-GUI 打开二者，判断功能差异，保留更新或更合理的版本。
+   - 若资源文件（如图片、配置）重复，直接保留一份即可。
+
+#### **步骤 3：删除签名信息**
+- 删除 `merged/META-INF` 文件夹内的所有 `.SF`、`.RSA`、`.DSA` 文件（避免签名冲突）。
+
+#### **步骤 4：重新打包**
+1. 打开命令行，进入 `merged` 目录：
+   ```bash
+   cd path/to/merged
+   ```
+2. 执行打包命令：
+   ```bash
+   jar cvf merged.jar *
+   ```
+   - 生成的 `merged.jar` 即为合并后的文件。
+
+---
+
+### **三、精简 JAR 包**
+#### **步骤 1：移除冗余依赖**
+1. 用 **JD-GUI** 打开原始 JAR，检查是否存在第三方库（如 `com.google.gson`, `okhttp3`）。
+2. 如果两个 JAR 包含相同库的不同版本，删除旧版本（如保留 `gson-2.8.9` 删除 `gson-2.6.2`）。
+
+#### **步骤 2：使用 ProGuard 优化**
+1. 下载 ProGuard，解压到本地目录（如 `C:\proguard`）。
+2. 创建配置文件 `proguard.config`，内容如下：
+   ```proguard
+   -injars merged.jar       # 输入合并后的 JAR
+   -outjars final.jar       # 输出精简后的 JAR
+   -dontwarn                # 忽略所有警告
+   -keep public class * {   # 保留所有公共类和方法
+       public protected *;
+   }
+   ```
+3. 运行 ProGuard：
+   ```bash
+   java -jar C:\proguard\lib\proguard.jar @proguard.config
+   ```
+   - 这会移除未使用的类、方法和字段，并优化字节码。
+
+#### **步骤 3：手动删除无用资源**
+- 检查 `merged.jar` 中的资源文件（如图片、JSON），删除非必要文件（如多余语言包、测试数据）。
+
+---
+
+### **四、验证与测试**
+1. **反编译检查**：
+   - 用 JD-GUI 打开 `final.jar`，确认核心类（如 `MainActivity`）存在且未被混淆破坏逻辑。
+2. **功能测试**：
+   - 将 `final.jar` 替换到 TVBox 应用中，运行并测试所有功能是否正常。
+
+---
+
+### **五、常见问题**
+1. **类冲突**：
+   - 若运行时报 `ClassNotFoundException` 或 `NoSuchMethodError`，可能是误删了必要类。需在 ProGuard 配置中添加 `-keep` 规则保护相关类。
+2. **资源丢失**：
+   - 检查 `res/` 或 `assets/` 目录，确保关键资源（如图标、配置）未被删除。
+
+---
+
+通过以上步骤，你可以合并并精简 JAR 包，显著减小体积。如遇到复杂依赖问题，建议先用小规模测试 JAR 熟悉流程。
+
 ## 今天看到一个新的教程：
 【教程】Pluto player影视软件新姿势_无密码挂载alist_免费观看原画 
 
