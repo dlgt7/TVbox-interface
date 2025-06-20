@@ -28,7 +28,7 @@ https://shuyuan.yiove.com/complex
 
 ### TVBox资源接口外链托管网址：感觉哪个好用用哪个，能不能用，好不要用，有没有坑，自己测试。网上的东西，只是收集，不做测试推荐。
 
-1、https://gitea.moe/
+1、https://about.gitea.cn/
 
 2、https://gitee.com/
 
@@ -40,25 +40,23 @@ https://shuyuan.yiove.com/complex
 
 6、惜染 https://mpimg.cn/ 
 
-7、OpenDrive: https://www.opendrive.com/ 能在线编辑，慢
+7、ifilespace https://demo.ifile.space/main
 
-8、ifilespace https://demo.ifile.space/main
+8、七彩云存储： https://cloud.06dn.com/login
 
-9、七彩云存储： https://cloud.06dn.com/login
+9、棱束链： https://www.lingshulian.com/
 
-10、棱束链： https://www.lingshulian.com/
+10、凯速网https://my.ksust.com
 
-11、凯速网https://my.ksust.com
+11、https://www.jsdelivr.com/
 
-12、https://www.jsdelivr.com/
+12、恩华云盘：https://pan.ehvip.cn
 
-13、恩华云盘：https://pan.ehvip.cn
+13、https://gitcode.net/explore
 
-14、https://gitcode.net/explore
+14、https://codeberg.org/
 
-15、https://codeberg.org/
-
-16、https://www.notabug.org
+15、https://www.notabug.org
 
 ## 短链接制作网址：哪个稳定自己测试。
 
