@@ -60,6 +60,8 @@ https://shuyuan.yiove.com/complex
 
 16、https://www.acwing.com/
 
+17、https://www.jsdelivr.com/
+
 ## 短链接制作网址：哪个稳定自己测试。
 
 https://gg.gg 
