@@ -3,7 +3,7 @@
 
 https://xn--qoqw77q.top/   
 
-http://vv.vmhost.CC/TV
+
 
 影视仓库：http://www.wmdz.com/
 
@@ -12,10 +12,6 @@ tbox：念心小站https://www.nxinxz.com/
 六音软件：www.sixyin.com   发布网站：https://6yso.com/
 
 看电视： https://www.iptvindex.com/
-
-奥秘博客：https://omii.top/
-
-黎哥：https://lige.chat/
 
 http://bhapp.top/
 
