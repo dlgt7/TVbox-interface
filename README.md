@@ -161,6 +161,8 @@ https://github.com/takagen99/TVBoxOSC
 
 黑盒魔改：https://github.com/MyShellTV/ShellTV
 
+uz：https://github.com/YYDS678/uzVideo-extensions
+
 版本发布o0HalfLife0o：https://github.com/o0HalfLife0o/TVBoxOSC
 
 官仓：终结于2022年7月18日。封仓。
