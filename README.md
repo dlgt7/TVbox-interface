@@ -201,6 +201,12 @@ https://github.com/UndCover/PyramidStore
 
 https://github.com/lm317379829/TVBoxDIY    已经删库，但是你搜TVBoxDIY会有很多，自己照着修改一下。
 
+调试助手：公众号：一个菜花。
+
+https://git.acwing.com/iduoduo/tiaoshi/-/raw/main/ba.json
+
+https://git.acwing.com/iduoduo/tiaoshi/-/raw/main/BB.json
+
 ## 常用工具：
 
 免魔法电报，也是个开源项目，用前自己上网查询这个怎么样。
