@@ -62,6 +62,10 @@ https://shuyuan.yiove.com/complex
 
 17、https://www.jsdelivr.com/
 
+18、https://about.gitlab.com/
+
+19、https://cnb.cool/
+
 ## 短链接制作网址：哪个稳定自己测试。
 
 https://gg.gg 
