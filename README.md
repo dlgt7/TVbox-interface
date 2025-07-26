@@ -112,6 +112,14 @@ PGone：https://mirror.ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/m
 
 阅读：https://legado.aoaostar.com/
 
+https://skybook.pages.dev/
+
+https://mwdh.cc/
+
+https://qyyuapi.com/
+
+https://loyc.xyz/
+
 miru：https://miru.js.org/
 
 海阔世界:
