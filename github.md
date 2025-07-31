@@ -115,3 +115,5 @@ https://github.com/TapXWorld/ChinaTextbook  所有小初高、大学PDF教材。
 https://github.com/Stirling-Tools/Stirling-PDF  pdf
 
 https://github.com/advplyr/audiobookshelf  Self-hosted audiobook and podcast server
+
+https://github.com/GhostenEditor/Ghosten-Player  一个视频播放器，支持网盘直连、元数据刮削、IPTV、文件管理等 / A video player that supports direct connection to network disk, metadata scraping, IPTV, file management, etc.
