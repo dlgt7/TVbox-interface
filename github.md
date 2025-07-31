@@ -102,6 +102,8 @@ https://github.com/meinvtuzai/PyramidStore-18  tvbox py源
 
 https://github.com/hjdhnx/drpy-node  道长的js 停更了
 
+https://github.com/fish2018/PG   https://github.com/fish2018/ZX  tvbox网盘源
+
 https://github.com/qiye45/wechatDownload  微信公众号文章批量下载工具，支持评论、合集下载，支持保存html/mhtml/md/pdf/docx文件，保存文章内图片、视频、音频文件
 
 https://github.com/ahmedkhaleel2004/gitdiagram   Free, simple, fast interactive diagrams for any GitHub repository
