@@ -82,6 +82,8 @@ https://github.com/hxh19950701/WebViewTvLive  电视直播软件
 
 https://github.com/Eanya-Tonic/CCTV_Viewer  电视浏览器，一款简易电视视频收看软件，用于方便的在机顶盒上收看网页视频
 
+https://github.com/yhyhnk/ourtv
+
 https://github.com/taksssss/tv  酷9，tvbox直播源
 
 https://github.com/moshstudio/wuji-tauri 一款简洁的资源聚合软件，支持单个应用中轻松浏览图片、音乐、小说，漫画、影视等资源
