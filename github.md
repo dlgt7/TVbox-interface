@@ -108,3 +108,5 @@ https://github.com/veracrypt/VeraCrypt   Disk encryption with strong security ba
 
 https://github.com/muxd93/ApkAutoBuild  一些tvbox空壳类app自动打包
 
+https://github.com/TapXWorld/ChinaTextbook  所有小初高、大学PDF教材。
+
