@@ -22,7 +22,6 @@
             "playerType": "2",
             "filterable": 1
         },
-
         {
             "key": "精东",
             "name": "🚀精东",
@@ -104,42 +103,42 @@
             "quickSearch": 1,
             "filterable": 1
         },
-  {
-    "key": "💞色猫资源💞",
-    "name": "💞色猫资源💞",
-    "type": 1,
-    "api": "https://api.maozyapi.com/inc/apijson_vod.php",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0
-  },
-          {
-    "key": "🚀橘猫",
-    "name": "🚀橘猫",
-    "type": 1,
-    "api": "https://to.to-long.com/api.php/provide/vod/at/json",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0
-  },
-          {
-    "key": "🈶色南国",
-    "name": "🈶色南国",
-    "type": 1,
-    "api": "http://api.sexnguon.com/api.php/provide/vod/",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0
-  },
-          {
-    "key": "Ckzy",
-    "name": "Ck资源",
-    "type": 1,
-    "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0
-  },
+        {
+            "key": "💞色猫资源💞",
+            "name": "💞色猫资源💞",
+            "type": 1,
+            "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "🚀橘猫",
+            "name": "🚀橘猫",
+            "type": 1,
+            "api": "https://to.to-long.com/api.php/provide/vod/at/json",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "🈶色南国",
+            "name": "🈶色南国",
+            "type": 1,
+            "api": "http://api.sexnguon.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "Ckzy",
+            "name": "Ck资源",
+            "type": 1,
+            "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
         {
             "key": "玉兔专场",
             "name": "🚀玉兔",
@@ -403,8 +402,6 @@
             "quickSearch": 1,
             "filterable": 0
         },
-
-
         {
             "key": "(18+)大地资源",
             "name": "🚀大地资源",
@@ -497,6 +494,4 @@
             }
         }
     ]
-
 }
-
