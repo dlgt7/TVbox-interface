@@ -1,28 +1,37 @@
 name: Merge upstream release→release
 
+# 触发条件
 on:
-  # 推送代码后触发
-  push:
-  # 定时任务触发，使用 cron 规则，这里默认12小时执行一次
-  schedule:
-    - cron: '0 */6 * * *'
+  # 手动触发
   workflow_dispatch:
+
+  # 定时触发：每 24 小时执行一次（UTC 时间 0 点）
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Merge upstream
+      # 1. 检出自己仓库的 release 分支
+      - name: Checkout own repo
+        uses: actions/checkout@v3
+        with:
+          ref: release
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0        # 拉取完整历史，避免 shallow 导致无法合并
+
+      # 2. 配置 Git 用户信息（用于合并提交）
+      - name: Set Git identity
         run: |
-          # 使用自己的用户名替换 username
-          git config --global user.name 'dlgt7'
+          git config --global user.name  'dlgt7'
           git config --global user.email 'dlgt7@gmail.com'
-          git pull --unshallow
-          # 自行替换要同步的上游仓库地址
+
+      # 3. 添加上游远程并同步合并
+      - name: Merge upstream release
+        run: |
           git remote add upstream https://github.com/FongMi/TV.git
-          git fetch upstream
+          git fetch upstream release
           git checkout release
-          git merge upstream/release
-          git pull origin release
+          git merge --no-edit upstream/release   # 无冲突时自动提交
           git push origin release
