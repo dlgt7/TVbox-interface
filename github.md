@@ -127,3 +127,7 @@ https://github.com/xxnuo/MusicFreePluginsHub MusicFree 源插件订阅聚合器 
 https://github.com/mursor1985/LIVE  肥羊直播 更新UA为 okHttp/Mod-1.1.0
 
 https://github.com/gstory0404/Cinetry   Cinetry播放器
+
+https://github.com/orion-lib/OrionTV  OrionTV 
+
+https://github.com/MoonTechLab/LunaTV
