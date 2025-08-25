@@ -123,3 +123,7 @@ https://github.com/GhostenEditor/Ghosten-Player  一个视频播放器，支持�
 https://github.com/Huibq/keep-alive  洛雪音乐音源、MusicFree音源、落雪音乐音源
 
 https://github.com/xxnuo/MusicFreePluginsHub MusicFree 源插件订阅聚合器 - 订阅全网大全
+
+https://github.com/mursor1985/LIVE  肥羊直播 更新UA为 okHttp/Mod-1.1.0
+
+
