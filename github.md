@@ -28,12 +28,16 @@
 | 直播 | [ssili126/tv](https://github.com/ssili126/tv) | 直播源实时更新仓库 |
 | 直播源 | [mursor1985/LIVE](https://github.com/mursor1985/LIVE) | 肥羊直播源，更新 UA 为 okHttp/Mod-1.1.0 |
 | 直播源 | [Supprise0901/TVBox_live](https://github.com/Supprise0901/TVBox_live) | TVBox 直播源，自动更新 |
+| 直播源 | [CCSH/IPTV](https://github.com/CCSH/IPTV) | 国内高清 IPTV 直播源整理 |
+| 直播源 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | 全球最大的公开 IPTV 频道列表 |
 | 播放器 | [GhostenEditor/Ghosten-Player](https://github.com/GhostenEditor/Ghosten-Player) | 支持网盘直连、刮削、IPTV 的视频播放器 |
 | 播放器 | [gstory0404/Cinetry](https://github.com/gstory0404/Cinetry) | Cinetry 播放器 |
 | 播放器 | [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | LunaTV |
 | 播放器 | [orion-lib/OrionTV](https://github.com/orion-lib/OrionTV) | OrionTV |
 | 播放器 | [Hiram-Wong/ZyPlayer](https://github.com/Hiram-Wong/ZyPlayer) | 桌面 IPTV / 视频聚合播放器 |
 | 播放器 | [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) | 简洁的在线 IPTV 播放器 |
+| 播放器 | [Lampon/MorphoTV](https://github.com/Lampon/MorphoTV) | 高颜值 TV 端 IPTV/视频播放器 |
+| 播放器 | [Niloux/IKuYo](https://github.com/Niloux/IKuYo) | 简洁易用的跨平台 IPTV 播放器 |
 | TVBox-壳 | [hl128k/tvbox](https://github.com/hl128k/tvbox) | TVBox 空壳及源收集 |
 | TVBox-壳 | [miru-project/miru-app](https://github.com/miru-project/miru-app) | 跨平台视频扩展壳 |
 | TVBox-壳 | [muxd93/ApkAutoBuild](https://github.com/muxd93/ApkAutoBuild) | TVBox 空壳自动打包脚本 |
@@ -50,6 +54,9 @@
 | TVBox-工具 | [FanchangWang/allinone_format](https://github.com/FanchangWang/allinone_format) | 肥羊直播源格式转换 |
 | TVBox-工具 | [Greatwallcorner/CatVodSpider](https://github.com/Greatwallcorner/CatVodSpider) | TVBox 爬虫脚本 |
 | TVBox-工具 | [Greatwallcorner/TV-Multiplatform](https://github.com/Greatwallcorner/TV-Multiplatform) | TVBox 多平台构建脚本 |
+| 网盘搜索 | [fish2018/pansou](https://github.com/fish2018/pansou) | 聚合网盘资源搜索引擎 |
+| 漫画工具 | [fish2018/GoComicMosaic](https://github.com/fish2018/GoComicMosaic) | 漫画拼页/合图自动化工具 |
+| 影视元数据 | [sjnhnp/movie](https://github.com/sjnhnp/movie) | 电影信息刮削与数据整理脚本 |
 | 阅读 | [gedoor/legado](https://github.com/gedoor/legado) | 开源 Android 阅读器（支持书源自定义） |
 | 阅读 | [LM-Firefly/booksource](https://github.com/LM-Firefly/booksource) | 阅读书源整理 |
 | 阅读 | [LM-Firefly/YueDu-Firefly](https://github.com/LM-Firefly/YueDu-Firefly) | 阅读 3.0 书源 |
