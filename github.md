@@ -74,3 +74,7 @@
 | 工具 | [moshstudio/wuji-tauri](https://github.com/moshstudio/wuji-tauri) | 聚合图片/音乐/小说/漫画/影视的桌面应用 |
 | 工具 | [JonaNorman/ShareFile](https://github.com/JonaNorman/ShareFile) | 基于 WebView 的文件局域网分享 |
 | 工具 | [HZJQF/help_tool](https://github.com/HZJQF/help_tool) | 推理算法可视化助手 |
+| 代理-客户端 | [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | 跨平台 Clash GUI 客户端（Verge Rev 版） |
+| 代理-订阅 | [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) | 每日更新的免费节点订阅合集 |
+| 代理-订阅 | [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe) | 自动抓取并合并多个免费代理订阅 |
+| 代理-工具 | [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) | 免费科学上网账号与教程合集 |
