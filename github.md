@@ -80,8 +80,6 @@
 | 音乐播放器 | [th-ch/youtube-music](https://github.com/th-ch/youtube-music) | 增强版 YouTube Music 桌面客户端 |
 | 音源 | [Huibq/keep-alive](https://github.com/Huibq/keep-alive) | 洛雪 & MusicFree 音源 |
 | 音源 | [xxnuo/MusicFreePluginsHub](https://github.com/xxnuo/MusicFreePluginsHub) | MusicFree 插件订阅聚合器 |
-| 音乐 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 高颜值跨平台音乐播放器 |
-| 音乐 | [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) | 插件化音乐播放器 |
 | 视频下载 | [btjawa/BiliTools](https://github.com/btjawa/BiliTools) | 跨平台哔哩哔哩视频/番剧下载 |
 | 嗅探 | [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) | 浏览器资源嗅探扩展「猫抓」 |
 | 下载 | [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) | 批量下载公众号文章及多媒体 |
