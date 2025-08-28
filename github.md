@@ -162,4 +162,40 @@ https://github.com/CalmXin/xin-verify-book-source  校验阅读书源，生成�
 
 https://github.com/JonaNorman/ShareFile  webview
 
+https://github.com/notepad-plus-plus/notepad-plus-plus  
+
+https://github.com/HZJQF/help_tool  推理算法助手(降维打击)
+
+https://github.com/xiaolei0125/Tvbox-decrypt 基于vite的直播源格式转换 接口解密 工具
+
+https://github.com/YYDS678/uzVideo-extensions
+
+https://github.com/lyswhut/lx-music-desktop  
+
+https://github.com/wolopo/newtv
+
+https://github.com/wmjordan/PDFPatcher
+
+https://github.com/listen1
+
+https://github.com/LibreSpark/LibreTV
+
+https://github.com/LM-Firefly/booksource   https://github.com/LM-Firefly/YueDu-Firefly
+
+https://github.com/maotoumao/MusicFree
+
+https://github.com/YYDS678/uzVideo 
+
+https://github.com/Hiram-Wong/ZyPlayer
+
+https://github.com/freeok/so-novel  小说下载｜网文下载 | 网络小说
+
+https://github.com/gedoor/legado 
+
+https://github.com/pdone/lx-music-source
+
+https://github.com/lyswhut/lx-music-mobile
+
+https://github.com/samqin123/MoonTV
+
 
