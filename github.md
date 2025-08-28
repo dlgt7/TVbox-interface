@@ -131,3 +131,35 @@ https://github.com/gstory0404/Cinetry   Cinetry播放器
 https://github.com/orion-lib/OrionTV  OrionTV 
 
 https://github.com/MoonTechLab/LunaTV
+
+https://github.com/qdvbp/mstar-tools
+
+https://github.com/gedoor/legado
+
+https://github.com/AlistGo/alist
+
+https://github.com/lem85930/ruyi-2box
+
+https://github.com/lem85930/zzq1234567890-epg   epg
+
+https://github.com/hjdhnx/dr_py  道长
+
+https://github.com/ssili126/tv  直播，实时更新
+
+https://github.com/Guovin/iptv-api   直播，实时更新
+
+https://github.com/miru-project/miru-app  也是个牛逼壳子
+
+https://github.com/getActivity/AndroidGithubBoss  Github Android 个人技术开源影响力排行榜
+
+https://github.com/yf20230412/master/tree/main  潇洒规则自动更新
+
+https://github.com/Greatwallcorner/CatVodSpider    https://github.com/Greatwallcorner/TV-Multiplatform
+
+https://github.com/Jgckm/legado_web_editor  阅读3.0 web端 书源编辑器
+
+https://github.com/CalmXin/xin-verify-book-source  校验阅读书源，生成有效书源和无效书源。支持书源去重、多线程。有源码和exe文件
+
+https://github.com/JonaNorman/ShareFile  webview
+
+
