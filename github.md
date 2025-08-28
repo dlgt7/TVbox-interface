@@ -64,8 +64,20 @@
 | 阅读-工具 | [CalmXin/xin-verify-book-source](https://github.com/CalmXin/xin-verify-book-source) | 书源有效性批量校验 |
 | 小说 | [freeok/so-novel](https://github.com/freeok/so-novel) | 一键下载网络小说 |
 | 有声书 | [advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf) | 自建有声书 & 播客服务器 |
-| 音乐 | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 洛雪音乐桌面版 |
-| 音乐 | [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile) | 洛雪音乐移动版 |
+| 音乐播放器 | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 洛雪音乐桌面版，插件化音源，支持多平台 |
+| 音乐播放器 | [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile) | 洛雪音乐移动版 |
+| 音乐播放器 | [stark81/vutronmusic](https://github.com/stark81/vutronmusic) | 跨平台高颜值本地音乐播放器（Vue3 + Electron） |
+| 音乐播放器 | [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) | 插件化、开源、跨平台音乐客户端 |
+| 音乐播放器 | [wangchenyan/ponymusic](https://github.com/wangchenyan/ponymusic) | 简洁优雅的 Android 本地音乐播放器 |
+| 音乐播放器 | [qier222/yesplaymusic](https://github.com/qier222/yesplaymusic) | 高颜值第三方网易云音乐客户端 |
+| 音乐播放器 | [nukeop/nuclear](https://github.com/nukeop/nuclear) | 跨平台流媒体音乐聚合播放器 |
+| 音乐播放器 | [imsyy/splayer](https://github.com/imsyy/splayer) | 简约现代的桌面音乐播放器 |
+| 音乐播放器 | [CDrummond/cantata](https://github.com/CDrummond/cantata) | KDE/Qt 前端，支持 MPD 的音乐播放器 |
+| 音乐播放器 | [Taiko2k/Tauon](https://github.com/Taiko2k/Tauon) | 功能丰富的 Linux/Windows 音乐播放器 |
+| 音乐播放器 | [DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef) | 轻量级模块化音频播放器 |
+| 音乐播放器 | [strawberrymusicplayer/strawberry](https://github.com/strawberrymusicplayer/strawberry) | 功能强大的 Qt 音乐管理与播放软件 |
+| 音乐播放器 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 跨平台高颜值本地音乐播放器 |
+| 音乐播放器 | [th-ch/youtube-music](https://github.com/th-ch/youtube-music) | 增强版 YouTube Music 桌面客户端 |
 | 音源 | [Huibq/keep-alive](https://github.com/Huibq/keep-alive) | 洛雪 & MusicFree 音源 |
 | 音源 | [xxnuo/MusicFreePluginsHub](https://github.com/xxnuo/MusicFreePluginsHub) | MusicFree 插件订阅聚合器 |
 | 音乐 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 高颜值跨平台音乐播放器 |
