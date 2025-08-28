@@ -26,6 +26,8 @@
 | 直播 | [suxuang/myIPTV](https://github.com/suxuang/myIPTV) | 典藏级高清直播源 + 节目预告 |
 | 直播 | [wolopo/newtv](https://github.com/wolopo/newtv) | 轻量级 IPTV 直播源 |
 | 直播 | [ssili126/tv](https://github.com/ssili126/tv) | 直播源实时更新仓库 |
+| 直播源 | [mursor1985/LIVE](https://github.com/mursor1985/LIVE) | 肥羊直播源，更新 UA 为 okHttp/Mod-1.1.0 |
+| 直播源 | [Supprise0901/TVBox_live](https://github.com/Supprise0901/TVBox_live) | TVBox 直播源，自动更新 |
 | 播放器 | [GhostenEditor/Ghosten-Player](https://github.com/GhostenEditor/Ghosten-Player) | 支持网盘直连、刮削、IPTV 的视频播放器 |
 | 播放器 | [gstory0404/Cinetry](https://github.com/gstory0404/Cinetry) | Cinetry 播放器 |
 | 播放器 | [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | LunaTV |
@@ -35,6 +37,10 @@
 | TVBox-壳 | [hl128k/tvbox](https://github.com/hl128k/tvbox) | TVBox 空壳及源收集 |
 | TVBox-壳 | [miru-project/miru-app](https://github.com/miru-project/miru-app) | 跨平台视频扩展壳 |
 | TVBox-壳 | [muxd93/ApkAutoBuild](https://github.com/muxd93/ApkAutoBuild) | TVBox 空壳自动打包脚本 |
+| TVBox-壳 | [takagen99/Box](https://github.com/takagen99/Box) | 基于 TVBox 的二次开发空壳 |
+| TVBox-壳 | [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS) | TVBox 开源分支，支持更多配置 |
+| TVBox-壳 | [FongMi/TV](https://github.com/FongMi/TV) | FongMi 定制 TVBox 空壳 |
+| TVBox-源 | [FongMi/CatVodSpider](https://github.com/FongMi/CatVodSpider) | FongMi 维护的 CatVod 爬虫源 |
 | TVBox-源 | [fish2018/PG](https://github.com/fish2018/PG) | TVBox 网盘源 |
 | TVBox-源 | [fish2018/ZX](https://github.com/fish2018/ZX) | TVBox 网盘源 |
 | TVBox-源 | [meinvtuzai/PyramidStore-18](https://github.com/meinvtuzai/PyramidStore-18) | TVBox Python 源 |
