@@ -1,4 +1,7 @@
 # 诈尸冒泡一下
+
+你们想要的盒子升级webview，以上传，自己找一下。adb。自己找适合自己盒子的webview版本。过程都是一样的。
+
 接口汇总网站(好像不更新)： https://cyuan.netlify.app/  
 
 https://xn--qoqw77q.top/   
