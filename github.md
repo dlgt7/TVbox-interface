@@ -45,6 +45,7 @@
 | TVBox-壳 | [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS) | TVBox 开源分支，支持更多配置 |
 | TVBox-壳 | [FongMi/TV](https://github.com/FongMi/TV) | FongMi 定制 TVBox 空壳 |
 | TVBox-源 | [FongMi/CatVodSpider](https://github.com/FongMi/CatVodSpider) | FongMi 维护的 CatVod 爬虫源 |
+| TVBox-壳 | [waifu-project/movie](https://github.com/waifu-project/movie) | 小猫影视，空壳 |
 | TVBox-源 | [fish2018/PG](https://github.com/fish2018/PG) | TVBox 网盘源 |
 | TVBox-源 | [fish2018/ZX](https://github.com/fish2018/ZX) | TVBox 网盘源 |
 | TVBox-源 | [meinvtuzai/PyramidStore-18](https://github.com/meinvtuzai/PyramidStore-18) | TVBox Python 源 |
