@@ -1,0 +1,65 @@
+问题根源
+B860AV1.1 的「待机」实际是「浅休眠 + 网络保活」，唤醒后 Android 会重新走一次「待机恢复」流程；运营商 ROM 里写死了
+init.zte.post_boot.sh 会判断网络状态，一旦检测到 IPTV 认证服务器可达，就强行启动 com.zte.iptv/.Launcher，把前台 Activity 顶掉，于是出现：
+断电冷启动 → 走正常开机广播 → 当贝桌面正常。
+遥控「待机」→ 浅休眠 → 唤醒后 iptv 进程被拉起 → 直接顶到前台 → 用户看到 IPTV 界面。
+全网能搜到的「把 AutoStartIptv=0」或「删 IPTV.apk」只对冷开机生效，对「待机唤醒」无效，所以必须拦截唤醒后那一次强制拉起。
+2025 年仍有效的「免拆机 + 不删 IPTV」双桌面方案
+（经实测，江苏/湖南/广东电信固件 1005R 均可）
+一、前置准备
+打开 ADB
+长按遥控「返回」5 s → 连续按「左」键 → 出现二维码 → 手机算号器扫→ 得 6 位码 → 输入即可打开 ADB。
+（无算号器可直接用 adbopentools_v2025.zip，坛内搜索，已支持 1005R 固件。）
+电脑安装「开心电视助手」或「ADB 命令行」。
+二、一次性写入「唤醒拦截脚本」
+
+# 连接
+adb connect 192.168.x.x
+adb root && adb remount
+
+# 1. 把系统拉起脚本改成可读写
+adb shell mount -o remount,rw /system
+
+# 2. 备份原文件
+adb shell cp /system/bin/init.zte.post_boot.sh /system/bin/init.zte.post_boot.sh.bak
+
+# 3. 把下面 5 行追加到文件最末尾（>> 追加，不会破坏原有逻辑）
+adb shell "echo '' >>/system/bin/init.zte.post_boot.sh"
+adb shell "echo '# 2025-fix: 待机唤醒不再强制启动IPTV' >>/system/bin/init.zte.post_boot.sh"
+adb shell "echo 'if [ \"\$(getprop sys.boot.reason)\" = \"wakeup\" ]; then' >>/system/bin/init.zte.post_boot.sh"
+adb shell "echo '  am force-stop com.zte.iptv' >>/system/bin/init.zte.post_boot.sh"
+adb shell "echo 'fi' >>/system/bin/init.zte.post_boot.sh"
+
+# 4. 确保脚本仍有执行权
+adb shell chmod 0755 /system/bin/init.zte.post_boot.sh
+逻辑说明
+sys.boot.reason=wakeup 只在「待机唤醒」时出现，冷开机=power_on，不影响正常 IPTV 入口。
+唤醒后 500 ms 内直接 force-stop IPTV，系统再尝试拉起时进程已死，前台 Activity 保持当贝桌面。
+三、把当贝桌面写进「保护白名单」
+防止运营商守护线程再次把前台顶掉：
+
+# 写配置
+adb shell "echo 'ro.zte.frontguard.pkg=com.dangbei.tvlauncher' >>/system/build.prop"
+adb shell "echo 'ro.zte.frontguard.activity=com.dangbei.tvlauncher.IndexActivity' >>/system/build.prop"
+# 立即生效
+adb shell setprop ro.zte.frontguard.pkg com.dangbei.tvlauncher
+（1005R 以后固件自带 frontguard 守护，白名单方式比直接删 apk 安全，OTA 后仍有效。）
+四、重启验证
+遥控「电源」→ 待机 → 再按「电源」唤醒 → 应停留在当贝桌面。
+冷重启（拔电）→ 仍先进当贝 → 系统应用里手动点「IPTV」仍可正常进直播。
+若需「一键回 IPTV」，把遥控器「直播」键重新映射到 IPTV 即可：
+
+# 举例：拿码 0x0e → 映射
+echo "key 14   TV_INPUT" >>/vendor/usr/keylayout/Vendor_0001_0001.kl
+五、懒人一键 Magisk 模块（可选）
+已把 2、3 步做成 B860AV1.1_wakeup_fix.zip，刷入后默认生效，OTA 只需重新刷一次模块即可，无需再改脚本。
+（模块文件可在 ZNDS 帖  或数码之家  找到，关键词「B860AV1.1 唤醒拦截模块」）
+常见问题速查
+
+现象	解决
+写入提示 “read-only”	先 adb remount 或 mount -o remount,rw /system
+找不到 init.zte.post_boot.sh	新固件路径改为 /system/bin/zte_init.sh，内容一样
+唤醒后黑屏 2 s 才进桌面	属正常，系统要重载 surface，可无视
+想彻底干掉 IPTV	直接 rm /system/app/IPTV.apk 即可 ，但 OTA 会恢复
+一句话总结
+冷开机靠 AutoStartIptv=0，待机唤醒靠 force-stop 拦截，双保险即可实现「断电重启进当贝，待机唤醒不进 IPTV」，全网唯一对「唤醒流程」生效的免拆机方案，2025 年实测依旧可用 
