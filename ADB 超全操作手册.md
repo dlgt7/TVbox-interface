@@ -63,24 +63,61 @@
 ## 6️⃣ 一键脚本（机顶盒专用）
 保存为 `box_onekey.sh` → `adb push box_onekey.sh /sdcard/` → 执行：
 
-```bash
+
 adb shell sh /sdcard/box_onekey.sh
 
 ---
 
 ## 7️⃣脚本内容（魔百盒实测）：
 #!/system/bin/sh
-# ① 挂载可读写
+
+① 挂载可读写
+
 mount -o remount,rw /system
+
 mount -o remount,rw /data
-# ② 安装当贝桌面+市场
+
+② 安装当贝桌面+市场
+
 cp /mnt/usb/sda1/dbzm.apk /data/app/
+
 cp /mnt/usb/sda1/dbsc.apk /data/app/
+
 chmod 644 /data/app/dbzm.apk
+
 chmod 644 /data/app/dbsc.apk
+
 pm install -r /data/app/dbzm.apk
+
 pm install -r /data/app/dbsc.apk
-# ③ 禁用 IPTV（自行替换包名）
+
+③ 禁用 IPTV（自行替换包名）
+
 pm disable-user com.huawei.iptv
-# ④ 启动当贝
+
+④ 启动当贝
+
 am start -n com.dangbei.tvlauncher/.Launcher
+
+## 🔚常见问题速解：
+
+| 现象                            | 解决                                               |
+| ----------------------------- | ------------------------------------------------ |
+| `device unauthorized`         | 盒子重新打开「USB调试」→ 手机端点「始终允许」                        |
+| `error: more than one device` | 只保留一个设备，或 `adb -s 192.168.1.100:5555 <命令>` 指定 IP |
+| `adb server is out of date`   | PC 端 platform-tools 升级到最新                        |
+| 网络连接断开                        | 盒子休眠导致，先在「开发者选项」里关闭「以太网待机省电」                     |
+
+## 🔚 小例子：10 秒给魔百盒装当贝市场
+
+电脑端：
+
+adb connect 192.168.1.100
+
+adb push dbsc.apk /mnt/usb/sda1/
+
+adb install -r /mnt/usb/sda1/dbsc.apk
+
+adb shell am start -n com.dangbei.market/.MainActivity
+
+→ 盒子立即弹出当贝市场，完成。
