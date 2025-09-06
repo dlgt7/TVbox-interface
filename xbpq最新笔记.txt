@@ -59,3 +59,80 @@
     "嗅探词": "m3u8#mp4#flv"
   }
 }
+
+分类url 就是：
+“告诉 TVBox，点左边哪个频道，就去加载哪一页列表”的那串网址模板。
+写法只有 3 步 5 个符号，真的傻子也能会。
+一、先背模板（一共 5 个符号）
+https://域名/目录/{cateId}--------{catePg}---.html
+符号解释（按出现顺序）：
+| 符号         | 叫法  | 作用                          |
+| ---------- | --- | --------------------------- |
+| `{}`       | 大括号 | **占位符**，TVBox 会自动把里面文字换成真实值 |
+| `cateId`   | 频道号 | 对应你写的“分类”里 `$` 后面的数字        |
+| `catePg`   | 页码号 | 翻页时 TVBox 自动 +1             |
+| `-` 或 `--` | 分隔线 | 照抄网站格式，几个横线就写几个             |
+| `.html`    | 后缀  | 网站是啥就写啥，也有 `.asp` 或 `/`     |
+二、3 步填空白（拿真实站点练手）
+1、打开网站列表页，随便点“电影”→ 第 2 页，地址栏得到：
+https://www.80kv.com/vodshow/1--------2---.html
+2、把会变动的数字换成占位符：
+原：/vodshow/1--------2---.html
+模板：/vodshow/{cateId}--------{catePg}---.html
+类型{cateid}，剧情{calss}，地区{area}，年份{year}，排序{by}，{letter}字母，语言{lang}，翻页{catepg}
+3、把域名补全，放进规则：
+"分类url": "https://www.80kv.com/vodshow/{cateId}--------{catePg}---.html"
+三、对应“分类”写法（必须配对）
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+用英文 # 分隔，千万别用中文“＃”，写死法（基础）
+
+一、先搞懂“数组”到底截什么
+1、打开列表页源码，找到“每一部影片”的最外层盒子。
+   目标：让 XBPQ 知道“从哪开始循环”。
+<div class="stui-vodlist__box">
+    <a class="stui-vodlist__thumb" href="/v/123.html" title="长风渡" data-original="/upload/pic.jpg">
+        <span class="pic-text text-right">更新至20集</span>
+    </a>
+</div>
+
+<div class="stui-vodlist__box">
+    <a class="stui-vodlist__thumb" href="/v/124.html" title="玉骨遥" data-original="/upload/pic2.jpg">
+        <span class="pic-text text-right">更新至36集</span>
+    </a>
+</div>
+2、写“数组”字段
+原则：把“循环头”和“循环尾”分别粘进去，中间内容任意，XBPQ 会自动把两段之间的所有片段当成一条记录。
+"数组": "<div class=\"stui-vodlist__box\">&&</div>"
+二、再截“播放数据”——两大步
+播放数据 = 播放数组（线路块） + 播放列表（单集） + 播放链接（真实地址）
+下面用“详情页”真实源码演示：
+<!-- 线路块 1 -->
+<h3>线路①</h3>
+<ul class="stui-content__playlist clearfix">
+    <li><a href="/play/123-1-1.html">第01集</a></li>
+    <li><a href="/play/123-1-2.html">第02集</a></li>
+</ul>
+
+<!-- 线路块 2 -->
+<h3>线路②</h3>
+<ul class="stui-content__playlist clearfix">
+    <li><a href="/play/123-2-1.html">第01集</a></li>
+    <li><a href="/play/123-2-2.html">第02集</a></li>
+</ul>
+1、先框住“线路块”——播放数组
+特征：每个线路最外层相同的 <ul> 尾巴。
+"播放数组": "class=\"stui-content__playlist clearfix\">&&</ul>"
+2、再框住“单集”——播放列表
+特征：每集都是 <a>集名</a>，用 <a&&/a> 最稳。
+"播放列表": "<a&&/a>"
+3、最后拿“真实地址”——播放链接
+特征：href="地址"，把引号里的内容截出来。
+"播放链接": "href=\"&&\""
+4、（如果地址是相对路径，别忘了加前缀）
+"链接前缀": "https://www.demo.com"
+记住口诀：
+“先圈大盒子(数组)，再圈小盒子(播放数组)，最后拿链接(播放链接)”
+
+
+
+
