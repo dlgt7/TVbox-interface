@@ -228,5 +228,35 @@ https://ad.mgdmt.com/xxxx
 标题同样可二次截取：
 "播放列表": "默认–<li>&&</li>||线路②–<a>&&</a>"
 
+记住核心：搜索数组 = “先圈每一块结果，再拿标题/图片/链接” 的圈地运动。
+一、搜索数组到底截什么？
+打开站点搜索页，随便搜“成龙”，F12 看见的结构一定是：
+<!-- 每一块结果 -->
+<div class="search-item">
+    <a href="/v/123.html" title="成龙传奇" data-original="/pic.jpg">
+        <span>HD</span>
+    </a>
+</div>
+
+<div class="search-item">
+    <a href="/v/124.html" title="警察故事" data-original="/pic2.jpg">
+        <span>蓝光</span>
+    </a>
+</div>
+搜索数组就是告诉 TVBox：
+“把每一块 <div class="search-item"> 到 </div> 先整体切下来，再逐条解析”
+二、写搜索数组的 3 步（照抄即可）
+1、圈整块（搜索数组）
+"搜索数组": "<div class=\"search-item\">&&</div>"
+2、再圈 4 个常用字段（都在同一块里）
+"搜索标题": "title=\"&&\"",
+"搜索图片": "data-original=\"&&\"",
+"搜索链接": "href=\"&&\"",
+"搜索副标题": "<span>&&</span>"
+3、补前缀（相对路径时）
+"搜索链接前缀": "https://www.demo.com"
+一句话背下来
+“先圈块（搜索数组），再圈字（标题/图片/链接），相对路径加前缀。”
+
 
 
