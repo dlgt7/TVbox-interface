@@ -71,7 +71,6 @@ saveenv
 
 adb shell sh /sdcard/mbh_micro.sh
 脚本内容：
-
 #!/system/bin/sh
 mount -o remount,rw /system
 mount -o remount,rw /data
