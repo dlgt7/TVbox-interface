@@ -53,11 +53,11 @@ setenv ipaddr 192.168.1.101
 saveenv
 电脑端 Hitool 选择「烧写 Whole Image」→ 导入 fastboot-burn.bin → 点击「烧写」。
 3 min 后自动重启 → 首次进系统关自动更新。
-5️⃣ 瑞芯微方案（RK3566）RKDevTool 3 步
+## 5️⃣ 瑞芯微方案（RK3566）RKDevTool 3 步
 盒子断电 → 双公头 USB 连电脑 → 按住 Recovery 键（或短接 CLK-GND）。
 打开 RKDevTool → 加载 config.cfg + 固件 .img → 提示 Found Maskrom。
 点「执行」→ 100 % 成功 → 拔线通电 → 完成。
-6️⃣ 国科微 & 无 TTL 机型：免拆 ADB 装桌面
+## 6️⃣ 国科微 & 无 TTL 机型：免拆 ADB 装桌面
 前提：能开 ADB（数字验证码可用计算器解）。
 保存为 mbh_micro.sh → 执行：
 
@@ -74,7 +74,7 @@ chmod 644 /data/app/dbsc.apk
 pm install -r /data/app/dbzm.apk
 pm install -r /data/app/dbsc.apk
 am start com.dangbei.tvlauncher
-7️⃣ 常用命令 1 行版
+## 7️⃣ 常用命令 1 行版
 
 场景	命令
 连接盒子	adb connect 192.168.x.x
@@ -84,19 +84,19 @@ TTL 看 U 盘	df
 TTL 批量装	cp -r /mnt/usb/sda1/*.apk /data/app/
 TTL 赋权	chmod 644 /data/app/*.apk
 启动当贝	am start com.dangbei.tvlauncher
-8️⃣ 短接点 & 拆机实拍（工具包内）
+## 8️⃣ 短接点 & 拆机实拍（工具包内）
 
 型号	芯片	短接位置
 E900V22C	S905L3A	NAND 6-7 脚
 UNT403A	S905L3A	EMMC C125
 CM201-2	Hi3798MV300	背面 TP9-TP10
 CM311-1SA	RK3566	CLK-GND（背面小圆点）
-9️⃣ 救砖速查
+## 9️⃣ 救砖速查
 
 现象	解决
 进度条 94 % 卡死	换 USB2.0 口＋取消擦除
 Hitool 报“烧写超时”	换网线＋关防火墙
 HDMI 无输出	刷“HDMI 安全版”固件
 无限重启	TTL 进 uboot → reset → 重刷
-🔚 一句话总结
+## 🔚 一句话总结
 晶晨就线刷，海思用 Hitool，瑞芯微 Maskrom，国科微只装桌面；看清芯片型号，确认代工短接点，100 % 成功！
