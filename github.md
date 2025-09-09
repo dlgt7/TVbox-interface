@@ -10,6 +10,11 @@
 | AI | [duixcom/Duix.Heygem](https://github.com/duixcom/Duix.Heygem) | Heygen 开源数字人替代品 |
 | AI | [sinaptik-ai/pandas-ai](https://github.com/sinaptik-ai/pandas-ai) | 用自然语言查询 Pandas DataFrame |
 | AI | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 把任意网页清洗成 LLM 可用的结构化数据 |
+| AI | [AIDotNet/auto-prompt](https://github.com/AIDotNet/auto-prompt)             | 多模型提示词优化平台          |
+| AI | [GuijiAI/HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)                   | 完全离线的 AI 数字人视频合成工具  |
+| AI | [yakami129/VirtualWife](https://github.com/yakami129/VirtualWife)           | 可在 B 站直播的虚拟数字人      |
+| AI | [infiniflow/ragflow](https://github.com/infiniflow/ragflow)                 | 模块化 RAG 框架，适合构建问答系统 |
+| AI | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)           | LLaMA 系列模型微调工具      |
 | AI | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 自媒体平台爬虫 |
 | AI | [maojindao55/botgroup.chat](https://github.com/maojindao55/botgroup.chat) | AI 机器人群聊 Demo |
 | 工具 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 开源工作流自动化平台 |
