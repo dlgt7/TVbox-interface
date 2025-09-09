@@ -22,6 +22,7 @@
 | 导航 | [tianyaxiang/NavSphere](https://github.com/tianyaxiang/NavSphere) | 基于 GitHub 存储的轻量级导航站 |
 | 导航 | [RSSNext/Folo](https://github.com/RSSNext/Folo) | 一处关注所有 RSS 源 |
 | 资讯 | [ourongxing/newsnow](https://github.com/ourongxing/newsnow) | 极简实时新闻聚合站 |
+| 直播 | [HTWMedia/HTV](https://github.com/HTWMedia/HTV) | 直播软件 |
 | 直播 | [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | 自动更新 IPTV 源，支持 Docker/TVBox |
 | 直播 | [suxuang/myIPTV](https://github.com/suxuang/myIPTV) | 典藏级高清直播源 + 节目预告 |
 | 直播 | [wolopo/newtv](https://github.com/wolopo/newtv) | 轻量级 IPTV 直播源 |
