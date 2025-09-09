@@ -24,6 +24,8 @@
 | 工具 | [alistgo/alist](https://github.com/alistgo/alist) | 支持多网盘挂载的文件列表程序 |
 | 工具 | [veracrypt/veracrypt](https://github.com/veracrypt/veracrypt) | 跨平台磁盘加密工具 |
 | 工具 | [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) | 经典开源文本编辑器 |
+| 工具 | [PipedreamHQ/pipedream](https://github.com/PipedreamHQ/pipedream)             | 开发者友好的事件驱动自动化平台          |
+| 工具 | [automatisch/automatisch](https://github.com/automatisch/automatisch)         | Zapier 开源替代品             |
 | 导航 | [tianyaxiang/NavSphere](https://github.com/tianyaxiang/NavSphere) | 基于 GitHub 存储的轻量级导航站 |
 | 导航 | [RSSNext/Folo](https://github.com/RSSNext/Folo) | 一处关注所有 RSS 源 |
 | 资讯 | [ourongxing/newsnow](https://github.com/ourongxing/newsnow) | 极简实时新闻聚合站 |
@@ -93,6 +95,7 @@
 | 远程桌面 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开箱即用的开源远程桌面 |
 | PDF | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 一站式 PDF 处理工具箱 |
 | PDF | [wmjordan/PDFPatcher](https://github.com/wmjordan/PDFPatcher) | PDF 补丁丁（多功能 PDF 工具） |
+| PDF | [oomol-lab/pdf-craft](https://github.com/oomol-lab/pdf-craft)                 | 扫描书籍 PDF 转 Markdown/EPUB |
 | API | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 免费可用 API 大全 |
 | 工具 | [Sjj1024/PakePlus-Android](https://github.com/Sjj1024/PakePlus-Android) | 把网站秒变 Android App |
 | 工具 | [moshstudio/wuji-tauri](https://github.com/moshstudio/wuji-tauri) | 聚合图片/音乐/小说/漫画/影视的桌面应用 |
