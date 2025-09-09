@@ -74,6 +74,7 @@
 | 阅读-工具 | [CalmXin/xin-verify-book-source](https://github.com/CalmXin/xin-verify-book-source) | 书源有效性批量校验 |
 | 小说 | [freeok/so-novel](https://github.com/freeok/so-novel) | 一键下载网络小说 |
 | 有声书 | [advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf) | 自建有声书 & 播客服务器 |
+| 电子书 | [Olib](https://github.com/olib-project/olib)                        | 开源电子书下载工具              |
 | 音乐播放器 | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 洛雪音乐桌面版，插件化音源，支持多平台 |
 | 音乐播放器 | [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile) | 洛雪音乐移动版 |
 | 音乐播放器 | [stark81/vutronmusic](https://github.com/stark81/vutronmusic) | 跨平台高颜值本地音乐播放器（Vue3 + Electron） |
