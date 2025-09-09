@@ -34,7 +34,8 @@
 | 直播 | [suxuang/myIPTV](https://github.com/suxuang/myIPTV) | 典藏级高清直播源 + 节目预告 |
 | 直播 | [wolopo/newtv](https://github.com/wolopo/newtv) | 轻量级 IPTV 直播源 |
 | 直播 | [ssili126/tv](https://github.com/ssili126/tv) | 直播源实时更新仓库 |
-| 直播源 | [mursor1985/LIVE](https://github.com/mursor1985/LIVE) | 肥羊直播源，更新 UA 为 okHttp/Mod-1.1.0 |
+| 直播源 | [yanggangzi/IPTV-](https://github.com/yanggangzi/IPTV-)                         | 2025 年更新直播源，含五星/腾讯/爱奇艺等 |
+| 直播源 | [mursor1985/LIVE](https://github.com/mursor1985/LIVE) | 肥羊直播源，更新 UA 为 okHttp/Mod-1.3.0.0|
 | 直播源 | [Supprise0901/TVBox_live](https://github.com/Supprise0901/TVBox_live) | TVBox 直播源，自动更新 |
 | 直播源 | [CCSH/IPTV](https://github.com/CCSH/IPTV) | 国内高清 IPTV 直播源整理 |
 | 直播源 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | 全球最大的公开 IPTV 频道列表 |
