@@ -95,6 +95,11 @@
 | 嗅探 | [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) | 浏览器资源嗅探扩展「猫抓」 |
 | 下载 | [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) | 批量下载公众号文章及多媒体 |
 | 远程桌面 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开箱即用的开源远程桌面 |
+| 远程桌面 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)     | 开箱即用的开源远程桌面           |
+| 远程桌面 | [1Remote/1Remote](https://github.com/1Remote/1Remote)         | 支持多协议的远程会话管理器         |
+| 远程桌面 | [TigerVNC/tigervnc](https://github.com/TigerVNC/tigervnc)     | 高性能 VNC 远程桌面          |
+| 远程桌面 | [miroslavpejic85/p2p](https://github.com/miroslavpejic85/p2p) | P2P 远程桌面工具，无需服务器      |
+| 远程桌面 | [BilldDesk](https://github.com/BilldDesk/BilldDesk)           | Vue3 + WebRTC 跨平台远程控制 |
 | PDF | [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 一站式 PDF 处理工具箱 |
 | PDF | [wmjordan/PDFPatcher](https://github.com/wmjordan/PDFPatcher) | PDF 补丁丁（多功能 PDF 工具） |
 | PDF | [oomol-lab/pdf-craft](https://github.com/oomol-lab/pdf-craft)                 | 扫描书籍 PDF 转 Markdown/EPUB |
