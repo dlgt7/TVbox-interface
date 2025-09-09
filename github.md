@@ -66,7 +66,7 @@
 | TVBox-工具 | [Greatwallcorner/TV-Multiplatform](https://github.com/Greatwallcorner/TV-Multiplatform) | TVBox 多平台构建脚本 |
 | 网盘搜索 | [fish2018/pansou](https://github.com/fish2018/pansou) | 聚合网盘资源搜索引擎 |
 | 漫画工具 | [fish2018/GoComicMosaic](https://github.com/fish2018/GoComicMosaic) | 漫画拼页/合图自动化工具 |
-| 漫画工具 | [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi)                   | Android 最强开源漫画阅读器，插件式源                |
+| 漫画工具 | [mihonapp/mihon](https://github.com/mihonapp/mihon)                   | Android 最强开源漫画阅读器，插件式源。tachiyomi后续                |
 | 漫画工具 | [gotson/komga](https://github.com/gotson/komga)                                       | 自托管漫画库服务器，支持 CBZ/PDF/EPUB，WebDAV+OPDS |
 | 漫画工具 | [jbilcke-hf/ai-comic-factory](https://github.com/jbilcke-hf/ai-comic-factory)         | 输入文字即可生成多格漫画，支持日漫/美漫/欧漫风格             |
 | 漫画工具 | [wgh136/PicaComic](https://github.com/wgh136/PicaComic)                               | Flutter 跨平台漫画 App，支持哔咔、NH、Hitomi 等多源  |
