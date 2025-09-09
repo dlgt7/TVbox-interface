@@ -66,6 +66,12 @@
 | TVBox-工具 | [Greatwallcorner/TV-Multiplatform](https://github.com/Greatwallcorner/TV-Multiplatform) | TVBox 多平台构建脚本 |
 | 网盘搜索 | [fish2018/pansou](https://github.com/fish2018/pansou) | 聚合网盘资源搜索引擎 |
 | 漫画工具 | [fish2018/GoComicMosaic](https://github.com/fish2018/GoComicMosaic) | 漫画拼页/合图自动化工具 |
+| 漫画工具 | [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi)                   | Android 最强开源漫画阅读器，插件式源                |
+| 漫画工具 | [gotson/komga](https://github.com/gotson/komga)                                       | 自托管漫画库服务器，支持 CBZ/PDF/EPUB，WebDAV+OPDS |
+| 漫画工具 | [jbilcke-hf/ai-comic-factory](https://github.com/jbilcke-hf/ai-comic-factory)         | 输入文字即可生成多格漫画，支持日漫/美漫/欧漫风格             |
+| 漫画工具 | [wgh136/PicaComic](https://github.com/wgh136/PicaComic)                               | Flutter 跨平台漫画 App，支持哔咔、NH、Hitomi 等多源  |
+| 漫画工具 | [story-diffusion/story-diffusion](https://github.com/story-diffusion/story-diffusion) | 字节+南开开源，长图/长视频一致性生成，适合连环画             |
+| 漫画工具 | [lanlinju/Anime](https://github.com/lanlinju/Anime)                                   | 5 M 迷你追番+漫画更新提醒，无广告，17 版迭代中           |
 | 影视元数据 | [sjnhnp/movie](https://github.com/sjnhnp/movie) | 电影信息刮削与数据整理脚本 |
 | 阅读 | [gedoor/legado](https://github.com/gedoor/legado) | 开源 Android 阅读器（支持书源自定义） |
 | 阅读 | [LM-Firefly/booksource](https://github.com/LM-Firefly/booksource) | 阅读书源整理 |
