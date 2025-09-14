@@ -11,14 +11,16 @@ https://www.hongguodj1.cc  今天拿红果短剧来练练手。
     "分类url": "https://www.hongguodj1.cc/vod/type/id/{cateId}/page/{catePg}.html",	
     "分类": "短剧大全$duanjudaquan#闪婚离婚$shanhunlihun#女频恋爱$nvpinlianai#反转爽剧$fanzhuanshuangju#脑洞悬疑$naodongxuanyi#年代穿越$niandaichuanyue#现代都市$xiandaidushi",
   }
-  
+
+这个网站还是比较简单的，写了三个参数就能看了，没有海报图片，下边我们来添加以下这个参数，再看看效果。
+![ec1b72d3f025044a24b0f6610ecd1369](https://github.com/user-attachments/assets/f4086243-36c5-4899-ab48-d33390cdb5d2)    ![8feb9110449a9183c80a99158e5ab1a0](https://github.com/user-attachments/assets/a6e2d855-875e-4d26-b5e9-75b56171c34f)
+
 {
 
     "主页url": "https://www.hongguodj1.cc/",
     "分类url": "https://www.hongguodj1.cc/vod/type/id/{cateId}/page/{catePg}.html",	
     "分类": "短剧大全$duanjudaquan#闪婚离婚$shanhunlihun#女频恋爱$nvpinlianai#反转爽剧$fanzhuanshuangju#脑洞悬疑$naodongxuanyi#年代穿越$niandaichuanyue#现代都市$xiandaidushi",
     "图片": "data-src=\"&&\"",
-    "图片前缀": "https://www.hongguodj1.cc",
-    "嗅探词": "m3u8#mp4#flv"
-  
+    "图片前缀": "https://www.hongguodj1.cc"
+    
   }
