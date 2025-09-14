@@ -7,9 +7,7 @@ https://www.hgdj.app/  今天拿红果短剧来练练手。
 
 {
     "主页url": "https://www.hgdj.app/",
-    
     "分类url": "https://www.hgdj.app/vodshow/{cateId}--------{catePg}---.html",	
-    
     "分类": "女频恋爱$nvpinlianai#反转爽剧$fanzhuanshuangju#古装仙侠$guzhuangxianxia#年代穿越$niandaichuanyue#脑洞悬疑$naodongxuanyi#有声动漫$youshengdongman#现代都市$xiandaidushi",
   }
   
