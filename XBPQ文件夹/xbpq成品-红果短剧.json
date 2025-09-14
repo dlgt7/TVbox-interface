@@ -1,14 +1,8 @@
 {
-    "作者": "dlgt7",
-    "站名": "红果短剧",
-    "请求头": "User-Agent$MOBILE_UA",
-    "编码": "UTF-8",
-    "图片代理": "0",
-    "首页": "120",
-    "起始页": "1",
     "主页url": "https://www.hongguodj1.cc/",
     "分类url": "https://www.hongguodj1.cc/vod/type/id/{cateId}/page/{catePg}.html",	
     "分类": "短剧大全$duanjudaquan#闪婚离婚$shanhunlihun#女频恋爱$nvpinlianai#反转爽剧$fanzhuanshuangju#脑洞悬疑$naodongxuanyi#年代穿越$niandaichuanyue#现代都市$xiandaidushi",
     "图片": "data-src=\"&&\"",
     "图片前缀": "https://www.hongguodj1.cc"
+
   }
