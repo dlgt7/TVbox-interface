@@ -24,3 +24,7 @@ https://www.hongguodj1.cc  今天拿红果短剧来练练手。
     "图片前缀": "https://www.hongguodj1.cc"
     
   }
+
+  现在已经能正常显示图片了，愉快的观影吧。后续会陆续汇总其它参数的添加，今天这几个参数都比较简单，就不贴网站源码了，照着教程就能实战。
+  ![0a82e26cd0342dccc5fb66b97b6ddcd3](https://github.com/user-attachments/assets/f15e6c77-f805-45f2-81b2-0ea8e93161cf)
+
