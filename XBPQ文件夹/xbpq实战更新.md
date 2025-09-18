@@ -30,7 +30,21 @@ https://www.hongguodj1.cc  今天拿红果短剧来练练手。
 
   出现下面情况，需要添加数组：
   ![304ec77b1cb69466eeb165bba2b081ac](https://github.com/user-attachments/assets/6c699a30-88a9-4ae6-a176-51bb621520f9)
+网页源码如下，查看提取数据：
+  {
 
+  								<li class="col-md-6 col-sm-4 col-xs-3">
+									<div class="stui-vodlist__box">
+										<a class="stui-vodlist__thumb lazyload" href="/vod/1879.html" title="花间令" data-original="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2905719646.jpg">
+											<span class="pic-text text-center"> 已完结 </span>
+										</a>
+										<div class="stui-vodlist__detail">
+											<h4 class="title text-overflow"><a href="/play/1879-1-1.html" title="花间令">花间令</a></h4>
+										</div>
+									</div>
+								</li>
+    }
+  
   {
   
     "主页url": "https://www.nmdvd.cc/",
