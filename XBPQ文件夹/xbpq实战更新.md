@@ -41,6 +41,9 @@ https://www.hongguodj1.cc  今天拿红果短剧来练练手。
     "嗅探词": "m3u8#mp4#flv"
     
   }
+  添加数组以后：
+  ![78c9691af5feecce229512c206a51803](https://github.com/user-attachments/assets/c0f62141-a04e-40ad-881f-1749e7c089ba)
+
 
 
 
