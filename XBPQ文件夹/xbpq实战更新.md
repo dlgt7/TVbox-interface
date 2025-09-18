@@ -31,4 +31,14 @@ https://www.hongguodj1.cc  今天拿红果短剧来练练手。
   出现下面情况，需要添加数组：
   ![304ec77b1cb69466eeb165bba2b081ac](https://github.com/user-attachments/assets/6c699a30-88a9-4ae6-a176-51bb621520f9)
 
+  {
+    "主页url": "https://www.nmdvd.cc/",
+    "分类url": "https://www.nmdvd.cc/vodshow/area/{area}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",  
+    "分类": "电影$dianying#剧集$juji#动漫$dongman#综艺$zongyi#短剧$duanju",
+    "数组": "<div class=\"stui-vodlist__box\">&&</div>",
+    "图片": "data-original=\"&&\"",
+    "嗅探词": "m3u8#mp4#flv"
+  }
+
+
 
