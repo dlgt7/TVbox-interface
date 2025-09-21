@@ -32,6 +32,7 @@
 | 直播 | [HTWMedia/HTV](https://github.com/HTWMedia/HTV) | 直播软件 |
 | 直播 | [horsemail/yourtv](https://github.com/horsemail/yourtv) | 直播软件 |
 | 直播 | [hxh19950701/WebViewTvLive](https://github.com/hxh19950701/WebViewTvLive) | 直播软件 |
+| 直播 | [Eanya-Tonic/CCTV_Viewer](https://github.com/Eanya-Tonic/CCTV_Viewer) | 直播软件 |
 | 直播 | [VonChange/utao](https://github.com/VonChange/utao) | 直播软件 |
 | 直播 | [ymlyyy/TVAuto](https://github.com/ymlyyy/TVAuto) | 直播软件 |
 | 直播 | [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | 自动更新 IPTV 源，支持 Docker/TVBox |
