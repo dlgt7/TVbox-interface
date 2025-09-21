@@ -5,6 +5,7 @@
 | 学习 | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 每月分享有趣、入门级的开源项目 |
 | 学习 | [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) | 交互式开发者成长路线图 |
 | 教材 | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 小初高及大学 PDF 教材全集 |
+| 合集 | [xlucn/oh-my-foss-android](https://github.com/xlucn/oh-my-foss-android) | 安卓开源软件合集 |
 | AI | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 精选提示词合集 |
 | AI | [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | 提示词自动优化器 |
 | AI | [duixcom/Duix.Heygem](https://github.com/duixcom/Duix.Heygem) | Heygen 开源数字人替代品 |
