@@ -50,6 +50,7 @@
 | 播放器 | [GhostenEditor/Ghosten-Player](https://github.com/GhostenEditor/Ghosten-Player) | 支持网盘直连、刮削、IPTV 的视频播放器 |
 | 播放器 | [gstory0404/Cinetry](https://github.com/gstory0404/Cinetry) | Cinetry 播放器 |
 | 播放器 | [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | LunaTV |
+| 播放器 | [Decohererk/DecoTV](https://github.com/Decohererk/DecoTV) | DecoTV |
 | 播放器 | [orion-lib/OrionTV](https://github.com/orion-lib/OrionTV) | OrionTV |
 | 播放器 | [Hiram-Wong/ZyPlayer](https://github.com/Hiram-Wong/ZyPlayer) | 桌面 IPTV / 视频聚合播放器 |
 | 播放器 | [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) | 简洁的在线 IPTV 播放器 |
