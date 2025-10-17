@@ -72,6 +72,7 @@
 | TVBox-工具 | [FanchangWang/allinone_format](https://github.com/FanchangWang/allinone_format) | 肥羊直播源格式转换 |
 | TVBox-工具 | [Greatwallcorner/CatVodSpider](https://github.com/Greatwallcorner/CatVodSpider) | TVBox 爬虫脚本 |
 | TVBox-工具 | [Greatwallcorner/TV-Multiplatform](https://github.com/Greatwallcorner/TV-Multiplatform) | TVBox 多平台构建脚本 |
+| TVBox-工具 | [lushunming/AndroidCatVodSpider](https://github.com/lushunming/AndroidCatVodSpider) | TVBox 网盘爬虫脚本源码 |
 | 网盘搜索 | [fish2018/pansou](https://github.com/fish2018/pansou) | 聚合网盘资源搜索引擎 |
 | 漫画工具 | [fish2018/GoComicMosaic](https://github.com/fish2018/GoComicMosaic) | 漫画拼页/合图自动化工具 |
 | 漫画工具 | [mihonapp/mihon](https://github.com/mihonapp/mihon)                   | Android 最强开源漫画阅读器，插件式源。tachiyomi后续                |
