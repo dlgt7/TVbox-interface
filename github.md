@@ -46,6 +46,7 @@
 | 直播源 | [Supprise0901/TVBox_live](https://github.com/Supprise0901/TVBox_live) | TVBox 直播源，自动更新 |
 | 直播源 | [CCSH/IPTV](https://github.com/CCSH/IPTV) | 国内高清 IPTV 直播源整理 |
 | 直播源 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | 全球最大的公开 IPTV 频道列表 |
+| 直播源 | [develop202/migu_video](https://github.com/develop202/migu_video) | 咪咕直播源 |
 | 播放器 | [GhostenEditor/Ghosten-Player](https://github.com/GhostenEditor/Ghosten-Player) | 支持网盘直连、刮削、IPTV 的视频播放器 |
 | 播放器 | [gstory0404/Cinetry](https://github.com/gstory0404/Cinetry) | Cinetry 播放器 |
 | 播放器 | [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | LunaTV |
