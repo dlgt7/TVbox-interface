@@ -95,6 +95,7 @@
 | 音乐播放器 | [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile) | 洛雪音乐移动版 |
 | 音乐播放器 | [stark81/vutronmusic](https://github.com/stark81/vutronmusic) | 跨平台高颜值本地音乐播放器（Vue3 + Electron） |
 | 音乐播放器 | [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) | 插件化、开源、跨平台音乐客户端 |
+| 音源 | [xxnuo/MusicFreePluginsHub](https://github.com/xxnuo/MusicFreePluginsHub) | MusicFree 插件订阅聚合器 |
 | 音乐播放器 | [wangchenyan/ponymusic](https://github.com/wangchenyan/ponymusic) | Vue3+Electron 高颜值本地播放器，支持歌词逐字 |
 | 音乐播放器 | [qier222/yesplaymusic](https://github.com/qier222/yesplaymusic) | 插件化音乐客户端，想听谁写个插件就行 |
 | 音乐播放器 | [nukeop/nuclear](https://github.com/nukeop/nuclear) | 跨平台流媒体音乐聚合播放器 |
@@ -106,7 +107,6 @@
 | 音乐播放器 | [algerkong/AlgerMusicPlayer](https://github.com/algerkong/AlgerMusicPlayer) | 跨平台高颜值本地音乐播放器 |
 | 音乐播放器 | [th-ch/youtube-music](https://github.com/th-ch/youtube-music) | 增强版 YouTube Music 桌面客户端 |
 | 音源 | [Huibq/keep-alive](https://github.com/Huibq/keep-alive) | 洛雪 & MusicFree 音源 |
-| 音源 | [xxnuo/MusicFreePluginsHub](https://github.com/xxnuo/MusicFreePluginsHub) | MusicFree 插件订阅聚合器 |
 | 视频下载 | [btjawa/BiliTools](https://github.com/btjawa/BiliTools) | 跨平台哔哩哔哩视频/番剧下载 |
 | 嗅探 | [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) | 浏览器资源嗅探扩展「猫抓」 |
 | 下载 | [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) | 批量下载公众号文章及多媒体 |
