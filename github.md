@@ -83,6 +83,7 @@
 | 漫画工具 | [story-diffusion/story-diffusion](https://github.com/story-diffusion/story-diffusion) | 字节+南开开源，长图/长视频一致性生成，适合连环画             |
 | 漫画工具 | [lanlinju/Anime](https://github.com/lanlinju/Anime)                                   | 5 M 迷你追番+漫画更新提醒，无广告，17 版迭代中           |
 | 漫画工具 | [Predidit/Kazumi](https://github.com/Predidit/Kazumi)                                   |基于自定义规则的番剧采集APP           |
+| 漫画工具 | [Predidit/oneAnime](https://github.com/Predidit/oneAnime)                                   |一款简洁清爽无广告的看番软件           |
 | 影视元数据 | [sjnhnp/movie](https://github.com/sjnhnp/movie) | 电影信息刮削与数据整理脚本 |
 | 阅读 | [gedoor/legado](https://github.com/gedoor/legado) | Android 端最强开源阅读器，书源规则想写就写 |
 | 阅读 | [LM-Firefly/booksource](https://github.com/LM-Firefly/booksource) | 	万人维护的书源仓库，日更 100+ 新源 |
