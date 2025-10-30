@@ -73,6 +73,7 @@
 | TVBox-工具 | [FanchangWang/allinone_format](https://github.com/FanchangWang/allinone_format) | 肥羊源转 TVBox、M3U、TXT，想怎么导怎么导 |
 | TVBox-工具 | [Greatwallcorner/CatVodSpider](https://github.com/Greatwallcorner/CatVodSpider) | T爬虫脚本模板，10 分钟写好自己的源 |
 | TVBox-工具 | [Greatwallcorner/TV-Multiplatform](https://github.com/Greatwallcorner/TV-Multiplatform) | 一条命令打包 Android/TV/手机三端 |
+| TVBox-工具 | [clevebitr/LumenTV-Compose](https://github.com/clevebitr/LumenTV-Compose) | 基于TV-Multiplatform、fonmi/TV项目的， 简单桌面版本实现 |
 | TVBox-工具 | [lushunming/AndroidCatVodSpider](https://github.com/lushunming/AndroidCatVodSpider) | 网盘爬虫源码，直接抄作业 |
 | 网盘搜索 | [fish2018/pansou](https://github.com/fish2018/pansou) | 阿里/夸克/百度/蓝奏一站搜，结果带直链 |
 | 漫画工具 | [fish2018/GoComicMosaic](https://github.com/fish2018/GoComicMosaic) | 漫画扫描件自动拼页，支持双页/留白裁剪 |
