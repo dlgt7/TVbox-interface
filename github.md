@@ -47,6 +47,11 @@
 | 直播源 | [CCSH/IPTV](https://github.com/CCSH/IPTV) | 国内高清 IPTV 单线路，打开就是秒播 |
 | 直播源 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | 全球 8000+ 公开频道，按国家/语言分类，直接丢播放器 |
 | 直播源 | [develop202/migu_video](https://github.com/develop202/migu_video) | 咪咕视频直播源，CBA/中超/英超免费看 |
+| 直播源 | [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | IPTV直播源自动更新平台 |
+| 直播源 | [qq49371114/iptv_kilvn](https://github.com/qq49371114/iptv_kilvn) | 一个每天自动更新的 IPTV 直播源项目 |
+| 直播源 | [qq49371114/tviptv](https://github.com/qq49371114/tviptv) | IPTV 源 (自动整理) |
+| 直播源 | [kimwang1978/collect-txt](https://github.com/kimwang1978/collect-txt) | IPTV 源 (自动整理) |
+| 直播源 | [ssili126/tv](https://github.com/ssili126/tv) | 自动收集的IPv4酒店电视直播源 |
 | 播放器 | [GhostenEditor/Ghosten-Player](https://github.com/GhostenEditor/Ghosten-Player) | 网盘直连+刮削+IPTV 三合一，海报墙自动美化 |
 | 播放器 | [gstory0404/Cinetry](https://github.com/gstory0404/Cinetry) | 极简本地播放器，支持杜比视界/杜比全景声 |
 | 播放器 | [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | 专为电视优化，遥控器操作零学习成本 |
