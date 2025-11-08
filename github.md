@@ -46,7 +46,6 @@
 | 直播源 | [CCSH/IPTV](https://github.com/CCSH/IPTV) | 国内高清 IPTV 单线路，打开就是秒播 |
 | 直播源 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | 全球 8000+ 公开频道，按国家/语言分类，直接丢播放器 |
 | 直播源 | [develop202/migu_video](https://github.com/develop202/migu_video) | 咪咕视频直播源，CBA/中超/英超免费看 |
-| 直播源 | [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | IPTV直播源自动更新平台 |
 | 直播源 | [qq49371114/iptv_kilvn](https://github.com/qq49371114/iptv_kilvn) | 一个每天自动更新的 IPTV 直播源项目 |
 | 直播源 | [qq49371114/tviptv](https://github.com/qq49371114/tviptv) | IPTV 源 (自动整理) |
 | 直播源 | [kimwang1978/collect-txt](https://github.com/kimwang1978/collect-txt) | IPTV 源 (自动整理) |
