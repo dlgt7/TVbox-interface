@@ -40,7 +40,6 @@
 | 直播 | [Guovin/iptv-api](https://github.com/Guovin/iptv-api) | 每日自动抓取并测速，返回 TB 可用直播源，支持 Docker |
 | 直播 | [suxuang/myIPTV](https://github.com/suxuang/myIPTV) | 4K/蓝光央视卫视频道+EPG 节目预告，收藏级直播源 |
 | 直播 | [wolopo/newtv](https://github.com/wolopo/newtv) | 仅 1 MB 的 IPTV 播放器，开机 2 秒启动 |
-| 直播 | [ssili126/tv](https://github.com/ssili126/tv) | 每天 6 点自动更新直播源，失效频道实时剔除 |
 | 直播源 | [yanggangzi/IPTV-](https://github.com/yanggangzi/IPTV-)                         | 2025 持续维护，含五星体育/腾讯/爱奇艺独播频道 |
 | 直播源 | [mursor1985/LIVE](https://github.com/mursor1985/LIVE) | 肥羊直播源，伪装 UA 防封，长期可用|
 | 直播源 | [Supprise0901/TVBox_live](https://github.com/Supprise0901/TVBox_live) | TVBox 专用直播接口，每日自动同步在线状态 |
