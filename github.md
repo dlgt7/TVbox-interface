@@ -92,6 +92,7 @@
 | 阅读 | [gedoor/legado](https://github.com/gedoor/legado) | Android 端最强开源阅读器，书源规则想写就写 |
 | 阅读 | [LM-Firefly/booksource](https://github.com/LM-Firefly/booksource) | 	万人维护的书源仓库，日更 100+ 新源 |
 | 阅读 | [LM-Firefly/YueDu-Firefly](https://github.com/LM-Firefly/YueDu-Firefly) | 阅读 3.0 专用精品书源，一键导入 |
+| 阅读 | [shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan) | 阅读书源-香色闺阁+用心读书+源阅+阅读3.0书源+源阅读+爱阅书香+千阅+花火阅读+读不舍手+番茄+喜马拉雅+漫画+听书+书源+IPTV源+IPA巨魔应用=自动更新 |
 | 阅读-工具 | [Jgckm/legado_web_editor](https://github.com/Jgckm/legado_web_editor) | 在线可视化书源编辑器，手机也能写规则 |
 | 阅读-工具 | [CalmXin/xin-verify-book-source](https://github.com/CalmXin/xin-verify-book-source) | 批量检测书源有效性，10 万条也能秒完 |
 | 小说 | [freeok/so-novel](https://github.com/freeok/so-novel) | 输入书名，一键下载全网 txt/epub 小说 |
