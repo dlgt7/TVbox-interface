@@ -65,6 +65,7 @@
 | TVBox-壳 | [takagen99/Box](https://github.com/takagen99/Box) | 基于官方 TVBox 的增强版，支持多线路切换 |
 | TVBox-壳 | [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS) | 开源分支，支持自定义解析、广告过滤 |
 | TVBox-壳 | [FongMi/TV](https://github.com/FongMi/TV) | FongMi 定制空壳，内置直播/点播双模式 |
+| TVBox-壳 | [Tosencen/XMBOX](https://github.com/Tosencen/XMBOX) | FongMi 魔改，据说是521大佬的作品 |
 | TVBox-源 | [FongMi/CatVodSpider](https://github.com/FongMi/CatVodSpider) | 官方维护爬虫，更新快、解析稳 |
 | TVBox-壳 | [waifu-project/movie](https://github.com/waifu-project/movie) | 二次元风格空壳，看番也能萌萌哒 |
 | TVBox-源 | [fish2018/PG](https://github.com/fish2018/PG) | 阿里/夸克/天翼网盘影视源，4K 原盘秒播 |
