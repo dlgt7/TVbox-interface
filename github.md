@@ -68,6 +68,8 @@
 | TVBox-壳 | [Tosencen/XMBOX](https://github.com/Tosencen/XMBOX) | FongMi 魔改，据说是521大佬的作品 |
 | TVBox-源 | [FongMi/CatVodSpider](https://github.com/FongMi/CatVodSpider) | 官方维护爬虫，更新快、解析稳 |
 | TVBox-壳 | [waifu-project/movie](https://github.com/waifu-project/movie) | 二次元风格空壳，看番也能萌萌哒 |
+| TVBox-壳 | [kknifer7/FreeBox](https://github.com/kknifer7/FreeBox) | TVBOX PC版本 |
+| TVBox-壳 | [kknifer7/CatVodSpider-PCx](https://github.com/kknifer7/CatVodSpider-PCx) | TVBOX PC版本的spider |
 | TVBox-源 | [fish2018/PG](https://github.com/fish2018/PG) | 阿里/夸克/天翼网盘影视源，4K 原盘秒播 |
 | TVBox-源 | [fish2018/ZX](https://github.com/fish2018/ZX) | 阿里/夸克/天翼网盘影视源，4K 原盘秒播 |
 | TVBox-源 | [meinvtuzai/PyramidStore-18](https://github.com/meinvtuzai/PyramidStore-18) | Python 脚本源，支持自建爬虫，想抓啥抓啥 |
