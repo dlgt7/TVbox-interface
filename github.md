@@ -142,3 +142,4 @@
 | 英语-工具 | [zyronon/TypeWords](https://github.com/zyronon/TypeWords) | 练习英语，一次敲击，一点进步 |
 | Runtipi | [runtipi/runtipi](https://github.com/runtipi/runtipi) | Runtipi is a homeserver for everyone! |
 | 网站克隆 | [firecrawl/open-lovable](https://github.com/firecrawl/open-lovable) | 是一个开源的、基于 AI 的网站克隆神器。 |
+| WIFI破解 | [baihengaead/wifi-crack-tool](https://github.com/baihengaead/wifi-crack-tool) | 暴力破解密码。 |
