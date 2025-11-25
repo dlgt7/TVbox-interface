@@ -67,6 +67,7 @@
 | TVBox-壳 | [FongMi/TV](https://github.com/FongMi/TV) | FongMi 定制空壳，内置直播/点播双模式 |
 | TVBox-壳 | [Tosencen/XMBOX](https://github.com/Tosencen/XMBOX) | FongMi 魔改，据说是521大佬的作品 |
 | TVBox-源 | [FongMi/CatVodSpider](https://github.com/FongMi/CatVodSpider) | 官方维护爬虫，更新快、解析稳 |
+| TVBox-壳 | [YYDS678/uzVideo](https://github.com/YYDS678/uzVideo) | 柚子壳 |
 | TVBox-壳 | [waifu-project/movie](https://github.com/waifu-project/movie) | 二次元风格空壳，看番也能萌萌哒 |
 | TVBox-壳 | [kknifer7/FreeBox](https://github.com/kknifer7/FreeBox) | TVBOX PC版本 |
 | TVBox-壳 | [kknifer7/CatVodSpider-PCx](https://github.com/kknifer7/CatVodSpider-PCx) | TVBOX PC版本的spider |
