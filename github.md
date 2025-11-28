@@ -103,6 +103,7 @@
 | 小说 | [freeok/so-novel](https://github.com/freeok/so-novel) | 输入书名，一键下载全网 txt/epub 小说 |
 | 有声书 | [advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf) | 自建有声书+播客服务器，进度多端同步 |
 | 电子书 | [Olib](https://github.com/olib-project/olib)                        | 开源电子书搜索下载，支持 Kindle/微信读书一键推送|
+| 小说 | [NiaoBlush/novel-disguise](https://github.com/NiaoBlush/novel-disguise)    | 小说页面伪装: 将小说页面伪装成一个Word文档或Excel表格|
 | 音乐播放器 | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 洛雪桌面版，插件音源，全网歌曲免费听 |
 | 音乐播放器 | [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile) | 洛雪音乐移动版 |
 | 音乐播放器 | [stark81/vutronmusic](https://github.com/stark81/vutronmusic) | 跨平台高颜值本地音乐播放器（Vue3 + Electron） |
