@@ -147,4 +147,5 @@
 | 网站克隆 | [firecrawl/open-lovable](https://github.com/firecrawl/open-lovable) | 是一个开源的、基于 AI 的网站克隆神器。 |
 | WIFI破解 | [baihengaead/wifi-crack-tool](https://github.com/baihengaead/wifi-crack-tool) | 暴力破解密码。 |
 | 蓝牙遥控 | [Atharok/BtRemote](https://gitlab.com/Atharok/BtRemote) | 适配所有TV，开源免费的蓝牙遥控。 |
+| GDK官网 | [gkd-kit/gkd](https://github.com/gkd-kit/gkd) | GDK官网。 |
 | GDK订阅 | [AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription) | GDK订阅。 |
