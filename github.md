@@ -106,6 +106,7 @@
 | 小说 | [NiaoBlush/novel-disguise](https://github.com/NiaoBlush/novel-disguise)    | 小说页面伪装: 将小说页面伪装成一个Word文档或Excel表格|
 | 音乐播放器 | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | 洛雪桌面版，插件音源，全网歌曲免费听 |
 | 音乐播放器 | [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile) | 洛雪音乐移动版 |
+| 洛雪音源 | [LuoXiaohei-2025/LX-music-collection](https://github.com/LuoXiaohei-2025/LX-music-collection) | 洛雪音源 |
 | 音乐播放器 | [stark81/vutronmusic](https://github.com/stark81/vutronmusic) | 跨平台高颜值本地音乐播放器（Vue3 + Electron） |
 | 音乐播放器 | [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) | 插件化、开源、跨平台音乐客户端 |
 | 音源 | [xxnuo/MusicFreePluginsHub](https://github.com/xxnuo/MusicFreePluginsHub) | MusicFree 插件订阅聚合器 |
