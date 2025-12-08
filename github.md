@@ -150,3 +150,4 @@
 | 蓝牙遥控 | [Atharok/BtRemote](https://gitlab.com/Atharok/BtRemote) | 适配所有TV，开源免费的蓝牙遥控。 |
 | GDK官网 | [gkd-kit/gkd](https://github.com/gkd-kit/gkd) | GDK官网。 |
 | GDK订阅 | [AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription) | GDK订阅。 |
+| 视频去水印 | [5ime/video_spider](https://github.com/5ime/video_spider) | 短视频去水印。 |
