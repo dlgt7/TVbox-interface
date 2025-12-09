@@ -13,8 +13,8 @@ https://www.hongguodj1.cc  今天拿红果短剧来练练手。
   }
 
 这个网站还是比较简单的，写了三个参数就能看了，没有海报图片，下边我们来添加以下这个参数，再看看效果。
-<img src=" https://github.com/user-attachments/assets/f4086243-36c5-4899-ab48-d33390cdb5d2 " width="50%">    
-<img src="https://github.com/user-attachments/assets/a6e2d855-875e-4d26-b5e9-75b56171c34f " width="50%">
+<img src=" https://github.com/user-attachments/assets/f4086243-36c5-4899-ab48-d33390cdb5d2 " width="40%">    
+<img src="https://github.com/user-attachments/assets/a6e2d855-875e-4d26-b5e9-75b56171c34f " width="40%">
 
 {
 
@@ -27,10 +27,10 @@ https://www.hongguodj1.cc  今天拿红果短剧来练练手。
   }
 
   现在已经能正常显示图片了，愉快的观影吧。后续会陆续汇总其它参数的添加，今天这几个参数都比较简单，就不贴网站源码了，照着教程就能实战。
-  ![0a82e26cd0342dccc5fb66b97b6ddcd3](https://github.com/user-attachments/assets/f15e6c77-f805-45f2-81b2-0ea8e93161cf)
+  <img src=https://github.com/user-attachments/assets/f15e6c77-f805-45f2-81b2-0ea8e93161cf " width="40%">
 
   出现下面情况，需要添加数组：
-  ![304ec77b1cb69466eeb165bba2b081ac](https://github.com/user-attachments/assets/6c699a30-88a9-4ae6-a176-51bb621520f9)
+  <img src=https://github.com/user-attachments/assets/6c699a30-88a9-4ae6-a176-51bb621520f9 " width="40%">
 网页源码如下，查看提取数据：
   {
 
