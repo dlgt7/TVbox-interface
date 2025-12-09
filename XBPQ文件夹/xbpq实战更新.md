@@ -13,7 +13,8 @@ https://www.hongguodj1.cc  今天拿红果短剧来练练手。
   }
 
 这个网站还是比较简单的，写了三个参数就能看了，没有海报图片，下边我们来添加以下这个参数，再看看效果。
-![ec1b72d3f025044a24b0f6610ecd1369](https://github.com/user-attachments/assets/f4086243-36c5-4899-ab48-d33390cdb5d2)    ![8feb9110449a9183c80a99158e5ab1a0](https://github.com/user-attachments/assets/a6e2d855-875e-4d26-b5e9-75b56171c34f)
+<img src=" https://github.com/user-attachments/assets/f4086243-36c5-4899-ab48-d33390cdb5d2 " width="50%">    
+<img src="https://github.com/user-attachments/assets/a6e2d855-875e-4d26-b5e9-75b56171c34f " width="50%">
 
 {
 
