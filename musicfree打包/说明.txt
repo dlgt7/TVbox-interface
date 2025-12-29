@@ -1,1 +1,4 @@
-q
+文件放置的位置：
+android/app/build.gradle
+android/app/TVBoxOSC.jks
+.github/workflows/build-beta.yml

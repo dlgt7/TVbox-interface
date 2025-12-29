@@ -1,0 +1,81 @@
+name: Beta 构建
+
+on:
+  push:
+    branches: [dev]
+    paths: ['package.json']  # 保留原逻辑，只在 package.json 变化时自动构建
+  workflow_dispatch:         # 手动触发，随时可以点“Run workflow”
+
+jobs:
+  build-beta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'gradle'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with: 
+          node-version: 20
+          cache: 'npm'
+
+      - name: Cache React Native dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+            android/.gradle
+          key: ${{ runner.os }}-rn-${{ hashFiles('package-lock.json', 'android/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-rn-
+
+      - name: Install Dependencies
+        run: npm ci --prefer-offline --no-audit      
+
+      - name: Configure TVBoxOSC Signing
+        run: |
+          cd android
+          ls -l app/TVBoxOSC.jks  # 确认 keystore 存在（建议你已将 jks 文件提交到仓库或通过 secrets 解码）
+
+          # 写入 gradle.properties，供 build.gradle 使用
+          cat <<'EOF' >> gradle.properties
+          FONGMIBOX_STORE_FILE=../app/TVBoxOSC.jks
+          FONGMIBOX_KEY_ALIAS=TVBoxOSC
+          FONGMIBOX_STORE_PASSWORD=TVBoxOSC
+          FONGMIBOX_KEY_PASSWORD=TVBoxOSC
+          EOF
+
+      - name: Make gradlew executable
+        run: chmod +x android/gradlew
+
+      - name: Build Beta APK
+        run: |
+          cd android
+          ./gradlew assembleRelease --parallel --build-cache --configure-on-demand
+
+      - name: List generated APKs
+        run: |
+          echo "📱 Generated APK files:"
+          find android/app/build/outputs/apk/release -name "*.apk" -exec ls -lh {} \;
+
+      - name: Upload Beta APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: beta-apks-$(date +'%Y%m%d-%H%M%S')  # 用时间戳命名，避免冲突
+          path: android/app/build/outputs/apk/release/*.apk
+          retention-days: 30
+
+      - name: Build Summary
+        run: |
+          echo "🎉 Beta build completed successfully!"
+          echo "🚀 Triggered by: ${{ github.event_name }}"
+          echo "👤 Actor: ${{ github.actor }}"
