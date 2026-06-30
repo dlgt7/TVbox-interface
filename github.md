@@ -145,7 +145,7 @@
 | 代理-客户端 | [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | 跨平台 Clash GUI 客户端（Verge Rev 版） |
 | 代理-订阅 | [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers) | 每日更新的免费节点订阅合集 |
 | 代理-订阅 | [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe) | 自动抓取并合并多个免费代理订阅 |
-| 代理-工具 | [Alvin9999/new-pac](https://github.com/Alvin9999/new-pac) | 免费科学上网账号与教程合集 |
+| 代理-工具 | [Alvin9999/new-pac](https://github.com/Alvin9999-newpac/fanqiang) | 免费科学上网账号与教程合集 |
 | 英语-工具 | [zyronon/TypeWords](https://github.com/zyronon/TypeWords) | 练习英语，一次敲击，一点进步 |
 | Runtipi | [runtipi/runtipi](https://github.com/runtipi/runtipi) | Runtipi is a homeserver for everyone! |
 | 网站克隆 | [firecrawl/open-lovable](https://github.com/firecrawl/open-lovable) | 是一个开源的、基于 AI 的网站克隆神器。 |
