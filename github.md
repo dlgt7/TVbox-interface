@@ -74,6 +74,9 @@
 | TVBox-壳 | [kknifer7/CatVodSpider-PCx](https://github.com/kknifer7/CatVodSpider-PCx) | TVBOX PC版本的spider |
 | TVBox-壳 | [Silent1566/webhtv](https://github.com/Silent1566/webhtv) | webhtv 不懂，基于WebHomeTV二次开发 |
 | TVBox-壳 | [fish2018/webhtv](https://github.com/fish2018/webhtv) | WebHomeTV 鱼老，基于FongMi二次开发 |
+| TVBox-壳 | [wobuhui666/TV](https://github.com/wobuhui666/TV) |  |
+| TVBox-壳 | [zyqfork/TV](https://github.com/zyqfork/TV) |  |
+| TVBox-壳 | [XiaochangXu/AVBox](https://github.com/XiaochangXu/AVBox) |  |
 | TVBox-壳 | [ingriddaleusag-dotcom/PickTV](https://github.com/ingriddaleusag-dotcom/PickTV) | 羊壳，PickTV 基于FongMi二次开发 |
 | TVBox-源 | [fish2018/PG](https://github.com/fish2018/PG) | 阿里/夸克/天翼网盘影视源，4K 原盘秒播 |
 | TVBox-源 | [fish2018/ZX](https://github.com/fish2018/ZX) | 阿里/夸克/天翼网盘影视源，4K 原盘秒播 |
