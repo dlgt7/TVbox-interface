@@ -137,6 +137,8 @@
 | 视频下载 | [btjawa/BiliTools](https://github.com/btjawa/BiliTools) | 跨平台哔哩哔哩视频/番剧下载 |
 | 嗅探 | [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) | 浏览器资源嗅探扩展「猫抓」 |
 | 下载 | [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) | 批量下载公众号文章及多媒体 |
+| 网盘下载 | [CYQawa/YunX](https://github.com/CYQawa/YunX) | 云析 |
+| 网盘下载 | [jiayuxuan123/YunGet](https://github.com/jiayuxuan123/YunGet) | 云取 |
 | 远程桌面 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开箱即用的开源远程桌面 |
 | 远程桌面 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)     | 开箱即用的开源远程桌面           |
 | 远程桌面 | [1Remote/1Remote](https://github.com/1Remote/1Remote)         | 支持多协议的远程会话管理器         |
