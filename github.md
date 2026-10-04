@@ -122,6 +122,7 @@
 | 音乐播放器 | [qier222/yesplaymusic](https://github.com/qier222/yesplaymusic) | 插件化音乐客户端，想听谁写个插件就行 |
 | 音乐播放器 | [nukeop/nuclear](https://github.com/nukeop/nuclear) | 跨平台流媒体音乐聚合播放器 |
 | 音乐播放器 | [imsyy/splayer](https://github.com/imsyy/splayer) | 简约现代的桌面音乐播放器 |
+| 音乐播放器 | [ljyh223/Mei](https://github.com/ljyh223/Mei) | 梅，网易 |
 | 音乐播放器 | [CDrummond/cantata](https://github.com/CDrummond/cantata) | KDE/Qt 前端，支持 MPD 的音乐播放器 |
 | 音乐播放器 | [Taiko2k/Tauon](https://github.com/Taiko2k/Tauon) | 功能丰富的 Linux/Windows 音乐播放器 |
 | 音乐播放器 | [DeaDBeeF-Player/deadbeef](https://github.com/DeaDBeeF-Player/deadbeef) | 轻量级模块化音频播放器 |
