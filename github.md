@@ -132,6 +132,8 @@
 | 音源 | [Huibq/keep-alive](https://github.com/Huibq/keep-alive) | 洛雪 & MusicFree 音源 |
 | 音源 | [Macrohard0001/lx-ikun-music-sources](https://github.com/Macrohard0001/lx-ikun-music-sources) | 洛雪 & MusicFree 音源 |
 | 音乐播放器 | [enzeberg/tonzhon-music](https://github.com/enzeberg/tonzhon-music) | 只有音乐, 无广告和社交; 干净纯粹, 资源丰富, 体验独特！ |
+| 番剧 | [open-ani/animeko](https://github.com/open-ani/animeko) | 番剧！ |
+| 番剧 | [MajoSissi/animeko-source](https://github.com/MajoSissi/animeko-source) | 番剧源！ |
 | 视频下载 | [btjawa/BiliTools](https://github.com/btjawa/BiliTools) | 跨平台哔哩哔哩视频/番剧下载 |
 | 嗅探 | [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) | 浏览器资源嗅探扩展「猫抓」 |
 | 下载 | [qiye45/wechatDownload](https://github.com/qiye45/wechatDownload) | 批量下载公众号文章及多媒体 |
