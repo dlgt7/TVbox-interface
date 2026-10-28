@@ -1,5 +1,6 @@
 | 分类 | 仓库 | 一句话简介 |
 |---|---|---|
+| 手机 | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。 |
 | 学习 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 逐行注释的深度学习论文复现仓库，像读博客一样读论文 |
 | 学习 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 手把手造轮子：Redis/Git/Docker/Nginx 等 30+ 经典项目从零实现 |
 | 学习 | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 每月 1 号推送「小白也能看懂」的有趣开源项目合集 |
